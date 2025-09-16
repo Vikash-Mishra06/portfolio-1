@@ -1,21 +1,29 @@
 "use client";
+import TechStack from "@/components/TechStack";
 import Image from "next/image";
 import React from "react";
+import { FaCss3, FaHtml5, FaReact } from "react-icons/fa";
+import { FaJs } from "react-icons/fa6";
 import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <div className=" relative h-screen flex items-center justify-center text-white overflow-hidden px-6">
+    <div
+      id="hero"
+      className=" relative h-screen flex items-center justify-center text-white overflow-hidden pt-10 px-6"
+    >
       {/* Container split into two columns */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-7xl w-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center max-w-6xl w-full">
         {/* LEFT SIDE - Text Content */}
-        <div className="text-center md:text-left">
-          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold  text-gray-300">
+        <div className="text-center md:text-left gap-6">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[63px] font-bold  text-gray-300">
             <span className="text-gray-400 font-light ">Hi!👋</span>
-            <br /> I'm <span className="text-[#8b5cf6] tracking-wider">Vikash</span> Mishra,
-            <br />
-            <p className="mt-5 text-lg font-semibold text-gray-400 tracking-wide">
-              A Passionate <span className="text-gray-200 ">MERN Developer,  Full Stack Developer.</span><br /> Building
+            <br /> I'm<span className="text-[#8b5cf6] tracking-wider">Vikash</span>Mishra,
+            <br /><p className="mt-5 text-lg font-medium text-gray-400 tracking-wide">A Passionate
+              <span className="text-gray-200 ">
+                MERN Developer, Full Stack Developer.
+              </span>
+              Building
               <span className="text-gray-200"> Data-Driven</span> web apps.
             </p>
           </h1>
@@ -45,7 +53,19 @@ const Hero = () => {
               Get in Touch
             </button>
             <div className="flex">
-              <button className="flex items-center gap-2 text-gray-400 hover:text-gray-200 text-lg font-medium rounded-xl"><span><i className="ri-file-text-line"></i></span>RESUME</button></div>
+              <button className="flex items-center gap-2 text-gray-400 hover:text-gray-200 text-lg font-medium rounded-xl">
+                <span>
+                  <i className="ri-file-text-line"></i>
+                </span>
+                RESUME
+              </button>
+            </div>
+          </div>
+          <div className="pt-10 flex flex-col">
+            <h1 className="text-gray-400 font-medium text-lg pb-2">
+              My current Tech Stack/Tools:
+            </h1>
+            <TechStack />
           </div>
         </div>
 
