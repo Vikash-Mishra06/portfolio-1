@@ -1,9 +1,10 @@
 import React from 'react'
 import Hero from './Hero/Hero'
+import ResponsiveNav from './Navbar/ResponsiveNav'
 
 const Home = () => {
   return (
-    <div className='overflow-hidden'>
+    <div>
       <Hero />
     </div>
   )

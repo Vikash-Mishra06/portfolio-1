@@ -1,4 +1,5 @@
 "use client";
+import SocialLinks from "@/components/SocialLinks";
 import React from "react";
 import { CgClose } from "react-icons/cg";
 

@@ -5,6 +5,7 @@ import Github from "./../../../public/images/Github_white.png";
 import Instagram from "./../../../public/images/Instagram_white.png";
 import Linkedin from "./../../../public/images/LinkedIN_white.png";
 import { HiBars3BottomRight } from "react-icons/hi2";
+import SocialLinks from "@/components/SocialLinks";
 
 type Props = {
   openNav: () => void;
@@ -43,9 +44,7 @@ const Nav = ({openNav}:Props) => {
         </div>
       </div>
       <div className="hidden lg:flex gap-4 cursor-pointer">
-        <img src={Github.src} alt="GitHub" className="w-[25px] h-[25px]" />
-        <img src={Linkedin.src} alt="GitHub" className="w-[25px] h-[25px]" />
-        <img src={Instagram.src} alt="GitHub" className="w-[25px] h-[25px]" />
+        <SocialLinks />
       </div>
 
       <HiBars3BottomRight onClick={openNav} className="lg:hidden w-8 h-8 text-white cursor-pointer"/>
