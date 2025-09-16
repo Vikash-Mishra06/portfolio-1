@@ -16,9 +16,9 @@ const Hero = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center max-w-6xl w-full">
         {/* LEFT SIDE - Text Content */}
         <div className="text-center md:text-left gap-6">
-          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[63px] font-bold  text-gray-300">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[60px] font-bold  text-gray-300">
             <span className="text-gray-400 font-light ">Hi!👋</span>
-            <br /> I'm<span className="text-[#8b5cf6] tracking-wider">Vikash</span>Mishra,
+            <br /> I'm <span className="text-[#8b5cf6]">Vikash </span>Mishra,
             <br /><p className="mt-5 text-lg font-medium text-gray-400 tracking-wide">A Passionate
               <span className="text-gray-200 ">
                 MERN Developer, Full Stack Developer.

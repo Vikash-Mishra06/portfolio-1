@@ -1,7 +1,7 @@
 // components/TechStack.tsx
 export default function TechStack() {
   return (
-    <div className="flex gap-6 text-3xl text-gray-400">
+    <div className="flex gap-6 text-3xl text-gray-400 transition-all ">
       <i className="devicon-html5-plain hover:text-orange-500"></i>
       <i className=" devicon-css3-plain hover:text-blue-500"></i>
       <i className="devicon-tailwindcss-plain hover:text-blue-400"></i>
