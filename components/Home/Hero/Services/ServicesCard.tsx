@@ -3,7 +3,7 @@ import React from 'react'
 import { Layout, Server, Sparkles, Cloud } from "lucide-react";
 
 type Props = {
-    icon: string,
+    icon: React.ReactNode,
     name: string,
     description: string,
 }

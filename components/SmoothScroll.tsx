@@ -8,7 +8,6 @@ export default function SmoothScroll({ children }: { children: ReactNode }) {
       duration: 1.2, // scroll speed
       easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // easeOutExpo
       smoothWheel: true,
-      smoothTouch: false,
     });
 
     function raf(time: number) {
