@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="pt-70 md:pt-20 lg:pt-10  relative h-screen flex items-center justify-center text-white overflow-hidden px-6"
+      className="pt-50 md:pt-20 lg:pt-10  relative h-screen flex items-center justify-center text-white px-6"
     >
       {/* Container split into two columns */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center max-w-6xl w-full">
@@ -23,12 +23,16 @@ const Hero = () => {
             className="text-3xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-[60px] font-bold  text-gray-300"
           >
             <span className="text-gray-400 font-light ">Hi!👋</span>
-            <br /> I&apos;m  <span className="text-[#8b5cf6]">Vikash </span>Mishra,
+            <br /> I&apos;m <span className="text-[#8b5cf6]">Vikash </span>
+            Mishra,
             <br />
             <p className="mt-5 text-sm sm:text-md lg:text-lg font-medium text-gray-400 tracking-wide">
               A Passionate
-              <span className="text-gray-200 "> MERN Developer, Full Stack Developer.
-              </span><br />
+              <span className="text-gray-200 ">
+                {" "}
+                MERN Developer, Full Stack Developer.
+              </span>
+              <br />
               Building<span className="text-gray-200"> Data-Driven</span> web
               apps.
             </p>
@@ -41,7 +45,7 @@ const Hero = () => {
             viewport={{ once: true }}
             className="mt-5 text- smdm:text-xl md:text-xl font-semibold flex justify-center md:justify-start items-center"
           >
-            I&apos;m  a
+            I&apos;m a
             <span className="pl-2 text-[#8b5cf6] font-semibold tracking-wider">
               <Typewriter
                 options={{
@@ -123,7 +127,7 @@ const Hero = () => {
             alt="heroImage"
             width={450}
             height={450}
-            className="rounded-full border-8 border-black/30 shadow-lg"
+            className="rounded-full border-8 border-black/30 shadow-lg "
           />
         </motion.div>
       </div>
