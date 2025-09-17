@@ -92,7 +92,7 @@ const Hero = () => {
           >
             {/* ✨ Shiny Text Effect */}
             <h1 className="relative inline-block text-md sm:text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 animate-shine pb-2">
-              My current Tech Stack/Tools:
+              My Current Tech Stack/Tools:
             </h1>
             <TechStack />
 
