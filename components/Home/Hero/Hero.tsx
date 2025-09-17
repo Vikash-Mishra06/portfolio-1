@@ -2,8 +2,6 @@
 import TechStack from "@/components/TechStack";
 import Image from "next/image";
 import React from "react";
-import { FaCss3, FaHtml5, FaReact } from "react-icons/fa";
-import { FaJs } from "react-icons/fa6";
 import Typewriter from "typewriter-effect";
 import { motion } from "motion/react";
 
@@ -25,7 +23,7 @@ const Hero = () => {
             className="text-3xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-[60px] font-bold  text-gray-300"
           >
             <span className="text-gray-400 font-light ">Hi!👋</span>
-            <br /> I'm <span className="text-[#8b5cf6]">Vikash </span>Mishra,
+            <br /> I&apos;m  <span className="text-[#8b5cf6]">Vikash </span>Mishra,
             <br />
             <p className="mt-5 text-sm sm:text-md lg:text-lg font-medium text-gray-400 tracking-wide">
               A Passionate
@@ -43,7 +41,7 @@ const Hero = () => {
             viewport={{ once: true }}
             className="mt-5 text- smdm:text-xl md:text-xl font-semibold flex justify-center md:justify-start items-center"
           >
-            I'm a
+            I&apos;m  a
             <span className="pl-2 text-[#8b5cf6] font-semibold tracking-wider">
               <Typewriter
                 options={{
