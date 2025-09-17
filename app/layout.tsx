@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
-import 'remixicon/fonts/remixicon.css'
+import "remixicon/fonts/remixicon.css";
+import SmoothScroll from "@/components/SmoothScroll"; // ✅ Import wrapper
 
 const fonts = Inter({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -30,7 +31,9 @@ export default function RootLayout({
       </head>
       <body className={`${fonts.className} bg-[#0f172a] antialiased`}>
         <ResponsiveNav />
-        {children}
+        <SmoothScroll>
+          {children}
+        </SmoothScroll>
       </body>
     </html>
   );
