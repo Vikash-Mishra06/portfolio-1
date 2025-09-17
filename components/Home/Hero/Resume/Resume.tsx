@@ -9,7 +9,7 @@ import {
   BookOpen,
   Award,
 } from "lucide-react";
-import { delay, motion } from "framer-motion"; // ✅ Import motion here
+import { motion } from "framer-motion"; // ✅ Import motion here
 
 // Animation Variants
 const cardVariants = {
@@ -17,7 +17,7 @@ const cardVariants = {
   visible: {
     opacity: 1,
     x: 0,
-    transition: { duration: 1, delay: 0.6, ease: "easeOut" },
+    transition: { duration: 1, delay: 0.6, ease: [0.42, 0, 0.58, 1] },
   },
 };
 
