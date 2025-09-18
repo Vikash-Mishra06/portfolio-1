@@ -6,7 +6,7 @@ import { motion } from "framer-motion"; // ✅ Make sure installed & imported
 
 const Services = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#000000]">
+    <div className="md:pt-10 md:pb-10 bg-[#000000]">
       <motion.h1
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -31,7 +31,7 @@ const Services = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
           viewport={{ once: true }}
-          className="p-5 border border-gray-400 rounded-md transition-all"
+          className="p-5 border border-gray-400 rounded-md transition-all "
         >
           <ServicesCard
             icon={<Layout size={40} className="text-blue-400" />}
