@@ -20,7 +20,7 @@ const MobileNav = ({closeNav, showNav}:Props) => {
       ></div>
 
       {/* Drawer */}
-      <div className="absolute right-0 top-0 h-full w-[80%] sm:w-[60%] bg-[#0f172a] text-blue-400 flex flex-col justify-start pt-20 items-center space-y-6 transform transition-transform duration-500">
+      <div className="absolute right-0 top-0 h-full w-[80%] sm:w-[60%] bg-[#0f172a] text-[#8B5CF6] flex flex-col justify-start pt-20 items-center space-y-6 transform transition-transform duration-500">
 
         <ul className="flex flex-col space-y-5 text-xl font-medium ">
           <li>
@@ -51,7 +51,7 @@ const MobileNav = ({closeNav, showNav}:Props) => {
         </ul>
       </div>
 
-      <CgClose onClick={closeNav} className="absolute top-[0.7rem] right-[1.4rem] sm:w-10 sm:h-10 w-8 h-8 text-blue-400"/>
+      <CgClose onClick={closeNav} className="absolute top-[0.7rem] right-[1.4rem] sm:w-10 sm:h-10 w-8 h-8 text-[#8B5CF6]"/>
     </div>
   );
 };
