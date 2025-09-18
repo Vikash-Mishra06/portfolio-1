@@ -9,25 +9,25 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="pt-10  relative h-screen flex items-center justify-center text-white px-6"
+      className="relative h-screen flex items-center justify-center text-white px-6 md:px-10"
     >
       {/* Container split into two columns */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center max-w-6xl w-full">
         {/* LEFT SIDE - Text Content */}
-        <div className=" md:text-left gap-6">
+        <div className=" md:text-left gap-10">
           <motion.h1
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
-            className="text-3xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-[60px] font-bold  text-gray-300"
+            className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-[60px] font-bold  text-gray-300"
           >
             <span className="text-gray-400 font-light text-left">Hi!👋</span>
 
             <br /> I&apos;m <span className="text-[#8B5CF6] pt-2">Vikash </span>
             Mishra,
             <br />
-            <p className="mt-5 text-sm sm:text-md lg:text-lg font-medium text-gray-400 tracking-wide text-left">
+            <p className="mt-6 text-sm sm:text-md lg:text-lg font-medium text-gray-400 tracking-wide text-left">
               A Passionate
               <span className="text-gray-200 ">
                 {" "}
@@ -44,7 +44,7 @@ const Hero = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.7 }}
             viewport={{ once: true }}
-            className="mt-5 text-left sm:text-xl md:text-xl font-semibold flex justify-start items-center"
+            className="mt-6 text-left text-md sm:text-xl md:text-xl font-semibold flex justify-start items-center"
 
           >
             I&apos;m a
@@ -93,7 +93,7 @@ const Hero = () => {
             className="pt-10 flex flex-col"
           >
             {/* ✨ Shiny Text Effect */}
-            <h1 className="relative inline-block text-md sm:text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 animate-shine pb-2">
+            <h1 className="relative inline-block text-lg sm:text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 animate-shine pb-3">
               My Current Tech Stack/Tools:
             </h1>
             <TechStack />
@@ -122,7 +122,7 @@ const Hero = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.7 }}
           viewport={{ once: true }}
-          className="flex justify-center md:justify-end"
+          className="hidden md:flex justify-center md:justify-end"
         >
           <Image
             src="/images/s1.jpg"

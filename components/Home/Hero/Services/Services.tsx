@@ -2,11 +2,11 @@
 import React from "react";
 import ServicesCard from "./ServicesCard"; // check if default export!
 import { Layout, Server, Sparkles, Cloud } from "lucide-react";
-import { motion } from "framer-motion"; // ✅ Make sure installed & imported
+import { motion } from "framer-motion";
 
 const Services = () => {
   return (
-    <div className="md:pt-10 md:pb-10 bg-[#000000]">
+    <div className=" md:pt-10 md:pb-10 bg-[#000000]">
       <motion.h1
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
