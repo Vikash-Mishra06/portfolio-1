@@ -9,12 +9,12 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="pt-50 md:pt-20 lg:pt-10  relative h-screen flex items-center justify-center text-white px-6"
+      className="pt-20 md:pt-20 lg:pt-10  relative h-screen flex items-center justify-center text-white px-6"
     >
       {/* Container split into two columns */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center max-w-6xl w-full">
         {/* LEFT SIDE - Text Content */}
-        <div className="text-center md:text-left gap-6">
+        <div className=" md:text-left gap-6">
           <motion.h1
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -22,11 +22,12 @@ const Hero = () => {
             viewport={{ once: true }}
             className="text-3xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-[60px] font-bold  text-gray-300"
           >
-            <span className="text-gray-400 font-light ">Hi!👋</span>
-            <br /> I&apos;m <span className="text-[#8b5cf6]">Vikash </span>
+            <span className="text-gray-400 font-light text-left">Hi!👋</span>
+
+            <br /> I&apos;m <span className="text-[#8B5CF6] pt-2">Vikash </span>
             Mishra,
             <br />
-            <p className="mt-5 text-sm sm:text-md lg:text-lg font-medium text-gray-400 tracking-wide">
+            <p className="mt-5 text-sm sm:text-md lg:text-lg font-medium text-gray-400 tracking-wide text-left">
               A Passionate
               <span className="text-gray-200 ">
                 {" "}
@@ -43,10 +44,11 @@ const Hero = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.7 }}
             viewport={{ once: true }}
-            className="mt-5 text- smdm:text-xl md:text-xl font-semibold flex justify-center md:justify-start items-center"
+            className="mt-5 text-left sm:text-xl md:text-xl font-semibold flex justify-start items-center"
+
           >
             I&apos;m a
-            <span className="pl-2 text-[#8b5cf6] font-semibold tracking-wider">
+            <span className="pl-2 text-[#7C3BEB] font-semibold tracking-wider ">
               <Typewriter
                 options={{
                   strings: [
@@ -71,11 +73,11 @@ const Hero = () => {
             viewport={{ once: true }}
             className="flex gap-5 mt-5 "
           >
-            <button className="px-4 py-2 bg-[#7C3AED] hover:bg-[#8b5cf6] text-md sm:text-lg font-medium rounded-xl">
+            <button className="px-4 py-2 bg-[#7C3BEB] hover:bg-[#8B5CF6] text-sm sm:text-md font-medium rounded-md lg:rounded-lg cursor-pointer">
               Get in Touch
             </button>
             <div className="flex ">
-              <button className="flex items-center gap-2 text-gray-400 hover:text-gray-200 text-md sm:text-lg font-medium rounded-xl">
+              <button className="flex items-center gap-2 text-gray-400 hover:text-gray-100 text-md font-medium rounded-xl cursor-pointer tracking-wide">
                 <span>
                   <i className="ri-file-text-line"></i>
                 </span>
@@ -127,7 +129,7 @@ const Hero = () => {
             alt="heroImage"
             width={450}
             height={450}
-            className="rounded-full border-8 border-black/30 shadow-lg "
+            className="rounded-full border-8 border-black/30 shadow-lg hidden md:block"
           />
         </motion.div>
       </div>

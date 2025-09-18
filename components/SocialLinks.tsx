@@ -39,7 +39,7 @@ const SocialLinks: FC = () => {
   ];
 
   return (
-    <div className="flex space-x-6 text-2xl text-gray-600">
+    <div className="flex space-x-6 text-2xl text-gray-400">
       {links.map(({ href, icon, label, hoverColor }) => (
         <Link
           key={label}

@@ -45,8 +45,8 @@ const Resume = () => {
               viewport={{ once: true }}
               className="bg-[#0F172A] p-5 rounded-2xl shadow-lg border border-gray-400"
             >
-              <span className="text-gray-200 text-md font-semibold">Frontend</span>
-              <p className="text-gray-300 pt-2">
+              <span className="text-gray-200 text-md font-semibold">Frontend-</span>
+              <p className="text-gray-300 pt-2 text-sm">
                 HTML, CSS, Tailwind CSS, JavaScript, React.js, Next.js, TypeScript
               </p>
             </motion.div>
@@ -64,8 +64,8 @@ const Resume = () => {
               viewport={{ once: true }}
               className="bg-[#0F172A] p-5 rounded-2xl shadow-lg border border-gray-400"
             >
-              <span className="text-gray-200 text-md font-semibold">Backend</span>
-              <p className="text-gray-300 pt-2">
+              <span className="text-gray-200 text-md font-semibold">Backend-</span>
+              <p className="text-gray-300 pt-2 text-sm">
                 Node.js, Express.js, MongoDB, JWT, Web Sockets
               </p>
             </motion.div>
@@ -84,9 +84,9 @@ const Resume = () => {
               className="bg-[#0F172A] p-5 rounded-2xl shadow-lg border border-gray-400"
             >
               <span className="text-gray-200 text-md font-semibold">
-                Tools & Technologies
+                Tools & Technologies-
               </span>
-              <p className="text-gray-300 pt-2">
+              <p className="text-gray-300 pt-2 text-sm">
                 Git & GitHub, REST APIs, Redux / Context API, OAuth, Postman,
                 Docker, Netlify, Vercel, Bootstrap, Material UI
               </p>
@@ -105,8 +105,8 @@ const Resume = () => {
               viewport={{ once: true }}
               className="bg-[#0F172A] p-5 rounded-2xl shadow-lg border border-gray-400"
             >
-              <span className="font-semibold text-md text-gray-200">AI Tools</span>
-              <p className="text-gray-300 pt-2">
+              <span className="font-semibold text-md text-gray-200">AI Tools-</span>
+              <p className="text-gray-300 pt-2 text-sm">
                 ChatGPT, GitHub Copilot, Cursor AI, MidJourney, Claude AI, Perplexity
               </p>
             </motion.div>
@@ -132,10 +132,11 @@ const Resume = () => {
               viewport={{ once: true }}
               className="bg-[#0F172A] p-5 rounded-2xl shadow-lg border border-gray-400"
             >
-              <h3 className="text-lg font-semibold text-gray-200">
+              <h2 className="text-md font-semibold text-gray-300">Qualification-</h2>
+              <h3 className="text-lg font-semibold text-gray-200 pt-2">
                 Bachelor of Science in IT (2022 - 2025)
               </h3>
-              <p className="text-gray-300 pt-2">
+              <p className="text-gray-300 text-sm pt-1">
                 Pillai HOC College of Arts, Science and Commerce, Rasayani
               </p>
             </motion.div>
@@ -153,10 +154,11 @@ const Resume = () => {
               viewport={{ once: true }}
               className="bg-[#0F172A] p-5 rounded-2xl shadow-lg border border-gray-400"
             >
-              <h3 className="text-lg font-semibold text-gray-200">
+              <h2 className="text-md font-semibold text-gray-300">Courses-</h2>
+              <h3 className="text-md font-semibold text-gray-200 pt-2">
                 Web + DSA + Aptitude (July 2025)
               </h3>
-              <p className="text-gray-300 pt-2">
+              <p className="text-gray-300 text-sm pt-1">
                 Job Ready AI Powered Cohort By Sheryians Coding School
               </p>
             </motion.div>
@@ -174,14 +176,13 @@ const Resume = () => {
               viewport={{ once: true }}
               className="bg-[#0F172A] p-5 rounded-2xl shadow-lg border border-gray-400"
             >
-              <span className="text-gray-200 text-md font-semibold">Certifications</span>
-              <ul className="list-disc list-inside text-gray-300 space-y-1 pt-2">
+              <span className="text-gray-200 text-md font-semibold">Certifications-</span>
+              <ul className="list-disc list-inside text-gray-300 space-y-1 pt-2 text-sm">
                 <li>Frontend Based Hackathon – Participation (Sheryians)</li>
                 <li>Frontend Development</li>
                 <li>Full Stack Development</li>
                 <li>React Bootcamp</li>
                 <li>JavaScript Bootcamp</li>
-                <li>HTML & CSS Bootcamp</li>
                 <li>Create REST APIs with Node.js & Express.js</li>
               </ul>
             </motion.div>

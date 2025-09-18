@@ -10,7 +10,7 @@ const Services = () => {
       <motion.h1
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
         viewport={{ once: true }}
         className="text-center text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-400"
       >
