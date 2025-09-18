@@ -16,7 +16,7 @@ const Hero = () => {
         {/* LEFT SIDE - Text Content */}
         <div className=" md:text-left gap-10">
           <motion.h1
-            initial={{ opacity: 0, y: 10 }}
+            initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
@@ -71,7 +71,7 @@ const Hero = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1 }}
             viewport={{ once: true }}
-            className="flex gap-5 mt-5 "
+            className="flex gap-5 mt-5"
           >
             <button className="px-4 py-2 bg-[#7C3BEB] hover:bg-[#8B5CF6] text-sm sm:text-md font-medium rounded-md lg:rounded-lg cursor-pointer">
               Get in Touch
@@ -90,10 +90,10 @@ const Hero = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1.3 }}
             viewport={{ once: true }}
-            className="pt-10 flex flex-col"
+            className="pt-15 flex flex-col"
           >
             {/* ✨ Shiny Text Effect */}
-            <h1 className="relative inline-block text-lg sm:text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 animate-shine pb-3">
+            <h1 className="relative inline-block text-lg sm:text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#7C3BEB] via-blue-400 to-[#7C3BEB] animate-shine pb-3">
               My Current Tech Stack/Tools:
             </h1>
             <TechStack />
@@ -110,7 +110,7 @@ const Hero = () => {
               }
               .animate-shine {
                 background-size: 200% auto;
-                animation: shine 3s linear infinite;
+                animation: shine 5s linear infinite;
               }
             `}</style>
           </motion.div>
@@ -118,9 +118,9 @@ const Hero = () => {
 
         {/* RIGHT SIDE - Profile Image */}
         <motion.div
-          initial={{ opacity: 0, x: 20 }}
+          initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, delay: 0.7 }}
+          transition={{ duration: 1, delay: 0.5 }}
           viewport={{ once: true }}
           className="hidden md:flex justify-center md:justify-end"
         >

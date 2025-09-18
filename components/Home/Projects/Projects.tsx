@@ -26,7 +26,7 @@ const Projects = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         viewport={{ once: true }}
         >
-          <Image src='/images/image.png' alt='Project 1 Img' width={800} height={650} className='rounded-lg object-cover'/>
+          <Image src='/images/image.png' alt='Project 1 Img' width={800} height={700} className='rounded-lg object-cover'/>
           <h1 className='mt-4 text-lg sm:text-2xl font-semibold text-gray-200'>Agency.Ai</h1>
           <h3 className='mt-2 text-sm sm:text-md font-semibold text-gray-400'>Service Web App.</h3>
         </motion.div>
@@ -36,7 +36,7 @@ const Projects = () => {
         transition={{ duration: 0.7, delay: 0.8 }}
         viewport={{ once: true }}
         >
-          <Image src='/images/image2.png' alt='Project 2 Img' width={800} height={650} className='rounded-lg'/>
+          <Image src='/images/image2.png' alt='Project 2 Img' width={800} height={700} className='rounded-lg'/>
           <h1 className='mt-4 text-lg sm:text-2xl font-semibold text-gray-200'>Nexovate-Agency</h1>
           <h3 className='mt-2 text-sm sm:text-md font-semibold text-gray-400'>Service Web App.</h3>
         </motion.div>
@@ -46,7 +46,7 @@ const Projects = () => {
         transition={{ duration: 0.8, delay: 0.9 }}
         viewport={{ once: true }}
         >
-          <Image src='/images/image3.png' alt='Project 3 Img' width={800} height={650} className='rounded-lg'/>
+          <Image src='/images/image3.png' alt='Project 3 Img' width={800} height={700} className='rounded-lg'/>
           <h1 className='mt-4 text-lg sm:text-2xl font-semibold text-gray-200'>Mensco Re-design</h1>
           <h3 className='mt-2 text-sm sm:text-md font-semibold text-gray-400'>E-commerce Web App.</h3>
         </motion.div>
@@ -56,7 +56,7 @@ const Projects = () => {
         transition={{ duration: 0.9, delay: 1 }}
         viewport={{ once: true }}
         >
-          <Image src='/images/image4.png' alt='Project 4 Img' width={800} height={650} className='rounded-lg'/>
+          <Image src='/images/image4.png' alt='Project 4 Img' width={800} height={700} className='rounded-lg'/>
           <h1 className='mt-4 text-lg sm:text-2xl font-semibold text-gray-200'>K72-ca Portfolio</h1>
           <h3 className='mt-2 text-sm sm:text-md font-semibold text-gray-400'>Web App.</h3>
         </motion.div>

@@ -15,7 +15,7 @@ const Nav = ({openNav}:Props) => {
   const [navbg, setNavbg] = useState(false)
   
   return (
-    <div className="transition-all duration-300 h-[9vh] z-[1000] fixed w-full px-5 md:px-10 flex justify-between items-center gap-5 bg-black/50 backdrop-blur-md shadow-md">
+    <div className="transition-all duration-300 h-[9vh] z-[1000] fixed w-full px-5 md:px-10 flex justify-between items-center gap-5 bg-black/70 backdrop-blur-md shadow-md">
       <div className="flex items-center w-[90%] h-auto gap-6">
         <div>
           <Link href="#">

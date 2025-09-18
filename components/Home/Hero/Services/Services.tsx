@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div className=" md:pt-10 md:pb-10 bg-[#000000]">
       <motion.h1
-        initial={{ opacity: 0, y: 10 }}
+        initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.6 }}
         viewport={{ once: true }}
