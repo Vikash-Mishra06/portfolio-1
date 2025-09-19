@@ -27,9 +27,9 @@ const Services = () => {
       <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-center">
         {/* Frontend */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.6 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
           viewport={{ once: true }}
           className="p-5 border border-gray-400 rounded-md "
         >
@@ -42,9 +42,9 @@ const Services = () => {
 
         {/* Backend */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.8 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
           viewport={{ once: true }}
           className="p-5 border border-gray-400 rounded-md "
         >
@@ -57,9 +57,9 @@ const Services = () => {
 
         {/* Animations */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 1 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
           viewport={{ once: true }}
           className="p-5 border border-gray-400 rounded-md "
         >
@@ -72,9 +72,9 @@ const Services = () => {
 
         {/* Deployment */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 1.2 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
           viewport={{ once: true }}
           className="p-5 border border-gray-400 rounded-md"
         >

@@ -11,7 +11,7 @@ const Projects = () => {
       <motion.h1
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.6 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
         className="text-center text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-400"
       >
@@ -22,11 +22,11 @@ const Projects = () => {
         </span>
       </motion.h1>
 
-      <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+      <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.7 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
           viewport={{ once: true }}
         >
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
@@ -74,9 +74,9 @@ const Projects = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.8 }}
+          transition={{ duration: 0.7, delay: 0.5 }}
           viewport={{ once: true }}
         >
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
@@ -123,9 +123,9 @@ const Projects = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.9 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
           viewport={{ once: true }}
         >
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
@@ -172,9 +172,9 @@ const Projects = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 1 }}
+          transition={{ duration: 0.9, delay: 0.7 }}
           viewport={{ once: true }}
         >
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
@@ -221,7 +221,7 @@ const Projects = () => {
           </div>
         </motion.div>
       </div>
-      <div className="w-[70%] mx-auto mt-10">
+      <div className="w-[80%] mx-auto mt-10">
         <Link href='https://github.com/Vikash-Mishra06' className="text-gray-400 flex items-center justify-center py-2 text-sm sm:text-md md:text-lg lg:text-xl border border-gray-400/40 hover:bg-[#1E1E1E]/40 rounded-2xl">
           More Projects on Github <FaGithub className="ml-2 text-2xl" />
         </Link>
