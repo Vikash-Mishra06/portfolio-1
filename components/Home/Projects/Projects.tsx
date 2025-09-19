@@ -31,7 +31,7 @@ const Projects = () => {
         >
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
             <Image
-              src="/images/image1.png"
+              src="/images/image.png"
               alt="Project 1 Img"
               width={800} height={650}
               className="rounded-lg hover:scale-103 transition-all duration-300"
