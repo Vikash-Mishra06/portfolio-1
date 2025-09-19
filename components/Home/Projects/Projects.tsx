@@ -33,8 +33,7 @@ const Projects = () => {
             <Image
               src="/images/image1.png"
               alt="Project 1 Img"
-              width={750}
-              height={750}
+              width={800} height={650}
               className="rounded-lg hover:scale-103 transition-all duration-300"
             />
           </div>
@@ -84,8 +83,7 @@ const Projects = () => {
             <Image
               src="/images/image2.png"
               alt="Project 2 Img"
-              width={750}
-              height={750}
+              width={800} height={650}
               className="rounded-lg hover:scale-103 transition-all duration-300"
             />
           </div>
@@ -134,8 +132,7 @@ const Projects = () => {
             <Image
               src="/images/image3.png"
               alt="Project 3 Img"
-              width={750}
-              height={750}
+              width={800} height={650}
               className="rounded-lg hover:scale-103 transition-all duration-300"
             />
           </div>
@@ -184,8 +181,7 @@ const Projects = () => {
             <Image
               src="/images/image4.png"
               alt="Project 4 Img"
-              width={750}
-              height={750}
+              width={800} height={650}
               className="rounded-lg hover:scale-103 transition-all duration-300"
             />
           </div>
