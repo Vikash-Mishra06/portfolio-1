@@ -4,6 +4,7 @@ import ResponsiveNav from './Navbar/ResponsiveNav'
 import Services from './Hero/Services/Services'
 import Projects from './Projects/Projects'
 import Skills from './Skills/Skills'
+import About from './About/About'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Services />
       <Skills />
       <Projects />
+      <About />
     </div>
   )
 }
