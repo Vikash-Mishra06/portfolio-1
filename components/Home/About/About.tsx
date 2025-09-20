@@ -107,7 +107,7 @@ const About = () => {
         {/* Left Section */}
         <div className="lg:w-1/2">
           <h1 className="text-gray-100 text-4xl font-semibold">About Me</h1>
-          <h1 className="text-gray-300 text-3xl font-semibold pt-10">I'm <span className="text-[#8B5CF6]"> Vikash </span>Mishra,</h1>
+          <h1 className="text-gray-300 text-3xl font-semibold pt-10">I&apos;m <span className="text-[#8B5CF6]"> Vikash </span>Mishra,</h1>
 
           {/* Animated paragraph */}
           <p className="text-gray-400 text-lg leading-relaxed pt-3 flex flex-wrap">
