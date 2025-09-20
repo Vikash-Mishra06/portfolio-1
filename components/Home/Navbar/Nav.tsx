@@ -35,6 +35,7 @@ const Nav = ({openNav}:Props) => {
           <ul>
             <li className="text-md text-blue-400 font-medium transition-all duration-300 space-x-5">
               <a className="hover:text-[#7C3AED]" href="#hero">Home</a>
+              <a className="hover:text-[#7C3AED]" href="#services">Services</a>
               <a className="hover:text-[#7C3AED]" href="#projects">Projects</a>
               <a className="hover:text-[#7C3AED]" href="#skills">Skills & Tools</a>
               <a className="hover:text-[#7C3AED]" href="#resume">Resume</a>

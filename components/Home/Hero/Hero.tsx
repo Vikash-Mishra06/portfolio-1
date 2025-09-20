@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import Typewriter from "typewriter-effect";
 import { motion } from "motion/react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -23,7 +24,6 @@ const Hero = () => {
             className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-[60px] font-bold  text-gray-300"
           >
             <span className="text-gray-400 font-light text-left">Hi!👋</span>
-
             <br /> I&apos;m <span className="text-[#8B5CF6] pt-2">Vikash </span>
             Mishra,
             <br />
@@ -45,7 +45,6 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.7 }}
             viewport={{ once: true }}
             className="mt-6 text-left text-md sm:text-xl md:text-xl font-semibold flex justify-start items-center"
-
           >
             I&apos;m a
             <span className="pl-2 text-[#7C3BEB] font-semibold tracking-wider ">
@@ -73,9 +72,14 @@ const Hero = () => {
             viewport={{ once: true }}
             className="flex gap-5 mt-5"
           >
-            <button className="px-4 py-2 bg-[#7C3BEB] hover:bg-[#8B5CF6] text-sm sm:text-md font-medium rounded-md lg:rounded-lg cursor-pointer">
+            <Link
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=mishravikash0612@gmail.com&su=Let's%20Connect&body=Hi%20Vikash,"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-[#7C3BEB] hover:bg-[#8B5CF6] text-sm sm:text-md font-medium rounded-md lg:rounded-lg cursor-pointer"
+            >
               Get in Touch
-            </button>
+            </Link>
             <div className="flex ">
               <button className="flex items-center gap-2 text-gray-400 hover:text-gray-100 text-md font-medium rounded-xl cursor-pointer tracking-wide">
                 <span>
