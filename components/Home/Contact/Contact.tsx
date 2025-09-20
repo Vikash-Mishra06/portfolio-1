@@ -55,7 +55,7 @@ const Contact = () => {
     >
       <div className='w-full lg:w-[50%]'>
         <div className='pb-10'>
-      <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>Let's Connect</h1>
+      <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>Let&apos;s Connect</h1>
         </div>
       <motion.form
         initial={{ opacity: 0, y: 30 }}
@@ -127,7 +127,7 @@ const Contact = () => {
         <div className='bg-[#111116] flex flex-col gap-5 p-10 rounded-2xl'>
           <span className='text-gray-400'>Available for work</span>
           <Image src='/images/s1.jpg' width={100} height={100} alt='' className='rounded-full border-4 border-gray-950/80' />
-          <p className='text-md text-gray-300'>My inbox is always open, Whether you have a project or just want to say Hi. I would love to hear from you. Feel free to contact me and I'll get back to you.</p>
+          <p className='text-md text-gray-300'>My inbox is always open, Whether you have a project or just want to say Hi. I would love to hear from you. Feel free to contact me and I&apos;ll get back to you.</p>
         </div>
       </div>
 
