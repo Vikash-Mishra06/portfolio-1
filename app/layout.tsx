@@ -4,6 +4,7 @@ import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import "remixicon/fonts/remixicon.css";
 import SmoothScroll from "@/components/SmoothScroll"; // ✅ Import wrapper
+import { Toaster } from 'react-hot-toast';
 
 const fonts = Inter({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body className={`${fonts.className} bg-[#0f172a] antialiased`}>
         <ResponsiveNav />
         <SmoothScroll>
+          <Toaster position="top-center" reverseOrder={false} />
           {children}
         </SmoothScroll>
       </body>

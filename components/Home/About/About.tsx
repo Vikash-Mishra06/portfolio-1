@@ -63,7 +63,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, icon, items, isOpe
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-3 text-lg font-medium">
           <span className="text-[#7C3BEB] text-xl">{icon}</span>
-          <span className="text-gray-300 text-md md:text-lg">{title}</span>
+          <span className="text-gray-300 text-sm sm:text-lg">{title}</span>
         </div>
         {isOpen ? (
           <FiChevronUp className="text-[#7C3BEB] text-2xl" />

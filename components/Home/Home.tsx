@@ -5,15 +5,18 @@ import Services from './Hero/Services/Services'
 import Projects from './Projects/Projects'
 import Skills from './Skills/Skills'
 import About from './About/About'
-
+import Contact from './Contact/Contact'
+import Footer from './Footer/Footer'
 const Home = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Hero />
       <Services />
       <Skills />
       <Projects />
       <About />
+      <Contact />
+      <Footer />
     </div>
   )
 }
