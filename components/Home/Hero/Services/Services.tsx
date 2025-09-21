@@ -7,7 +7,7 @@ import SpotlightCard from "../../../SpotlightCard";
 
 const Services = () => {
   return (
-    <div id="services" className=" md:pt-16 md:pb-16 bg-[#000000]">
+    <div id="services" className=" pt-16 pb-16 bg-[#000000]">
       <motion.h1
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -29,17 +29,17 @@ const Services = () => {
         {/* Frontend */}
         <SpotlightCard
           className="custom-spotlight-card"
-          spotlightColor="rgba(0, 229, 255, 0.2)"
+          spotlightColor="rgba(139, 92, 246, 0.2)"
         >
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
-            className="p-5 border border-gray-400 rounded-md hover:border-blue-400"
+            className="p-5 border border-gray-400 rounded-md hover:border-[#7C3BEB]"
           >
             <ServicesCard
-              icon={<Layout size={40} className="text-blue-400" />}
+              icon={<Layout size={40} className="text-[#7C3BEB]" />}
               name="Frontend"
               description="Crafting responsive, modern UIs with React and Tailwind, focusing on speed, and seamless user experiences."
             />
@@ -49,17 +49,17 @@ const Services = () => {
         {/* Backend */}
         <SpotlightCard
           className="custom-spotlight-card"
-          spotlightColor="rgba(0, 229, 255, 0.2)"
+          spotlightColor="rgba(139, 92, 246, 0.2)"
         >
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
             viewport={{ once: true }}
-            className="p-5 border border-gray-400 rounded-md hover:border-blue-400"
+            className="p-5 border border-gray-400 rounded-md hover:border-[#8B5CF6]"
           >
             <ServicesCard
-              icon={<Server size={40} className="text-blue-400" />}
+              icon={<Server size={40} className="text-[#8B5CF6]" />}
               name="Backend"
               description="Building scalable APIs with Node.js and Express, managing data and authentication with efficiency."
             />
@@ -69,17 +69,17 @@ const Services = () => {
         {/* Animations */}
         <SpotlightCard
           className="custom-spotlight-card"
-          spotlightColor="rgba(0, 229, 255, 0.2)"
+          spotlightColor="rgba(139, 92, 246, 0.2)"
         >
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
             viewport={{ once: true }}
-            className="p-5 border border-gray-400 rounded-md hover:border-blue-400"
+            className="p-5 border border-gray-400 rounded-md hover:border-[#7C3BEB]"
           >
             <ServicesCard
-              icon={<Sparkles size={40} className="text-blue-400" />}
+              icon={<Sparkles size={40} className="text-[#7C3BEB]" />}
               name="Animations"
               description="Enhancing web apps with smooth, interactive animations using Framer Motion and GSAP for engaging experiences."
             />
@@ -89,17 +89,17 @@ const Services = () => {
         {/* Deployment */}
         <SpotlightCard
           className="custom-spotlight-card"
-          spotlightColor="rgba(0, 229, 255, 0.2)"
+          spotlightColor="rgba(139, 92, 246, 0.2)"
         >
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
             viewport={{ once: true }}
-            className="p-5 border border-gray-400 rounded-md hover:border-blue-400"
+            className="p-5 border border-gray-400 rounded-md hover:border-[#7C3BEB]"
           >
             <ServicesCard
-              icon={<Cloud size={40} className="text-blue-400" />}
+              icon={<Cloud size={40} className="text-[#7C3BEB]" />}
               name="Deployment"
               description="Deploying apps on Vercel, Netlify, and Docker with a focus on scalability, reliability, and performance."
             />

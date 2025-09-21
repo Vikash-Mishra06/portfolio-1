@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div id="projects" className="md:pt-16 md:pb-16 bg-[#000000]">
+    <div id="projects" className="pt-16 pb-16 bg-[#000000]">
       <motion.h1
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -75,7 +75,7 @@ const Projects = () => {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.5 }}
+          transition={{ duration: 0.7, delay: 0.4 }}
           viewport={{ once: true }}
         >
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
@@ -124,7 +124,7 @@ const Projects = () => {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
           viewport={{ once: true }}
         >
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
@@ -173,7 +173,7 @@ const Projects = () => {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 0.7 }}
+          transition={{ duration: 0.9, delay: 0.4 }}
           viewport={{ once: true }}
         >
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
@@ -222,7 +222,7 @@ const Projects = () => {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 0.8 }}
+          transition={{ duration: 0.9, delay: 0.4 }}
           viewport={{ once: true }}
         >
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
@@ -271,7 +271,7 @@ const Projects = () => {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 0.9 }}
+          transition={{ duration: 0.9, delay: 0.4 }}
           viewport={{ once: true }}
         >
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">

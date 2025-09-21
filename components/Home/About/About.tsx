@@ -56,13 +56,13 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, icon, items, isOpe
   return (
     <div
       className="border border-gray-800 rounded-xl p-4 cursor-pointer 
-                 transition-all duration-300 hover:border-[#7C3BEB] bg-gray-900/40"
+                 transition-all duration-300 hover:border-[#8B5CF6] bg-gray-900/40"
       onClick={onClick}
     >
       {/* Header */}
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-3 text-lg font-medium">
-          <span className="text-[#7C3BEB] text-xl">{icon}</span>
+          <span className="text-[#8B5CF6] text-xl">{icon}</span>
           <span className="text-gray-300 text-sm sm:text-lg">{title}</span>
         </div>
         {isOpen ? (
@@ -102,7 +102,7 @@ const About = () => {
   const words = paragraph.split(" ");
 
   return (
-    <section id="about" className="px-6 sm:px-12 lg:px-40 py-16 bg-black">
+    <section id="about" className="px-6 sm:px-12 lg:px-40 pt-16 pb-16 bg-black">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-12">
         {/* Left Section */}
         <div className="lg:w-1/2">
