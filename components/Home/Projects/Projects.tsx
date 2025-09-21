@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div id="projects" className="pt-16 pb-16 bg-[#000000]">
+    <div id="projects" className="sm:pt-16 sm:pb-16 bg-[#000000]">
       <motion.h1
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}

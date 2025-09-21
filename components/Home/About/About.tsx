@@ -102,7 +102,7 @@ const About = () => {
   const words = paragraph.split(" ");
 
   return (
-    <section id="about" className="px-6 sm:px-12 lg:px-40 pt-16 pb-16 bg-black">
+    <section id="about" className="px-6 sm:px-12 lg:px-40 sm:pt-16 sm:pb-16 bg-black">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-12">
         {/* Left Section */}
         <div className="lg:w-1/2">

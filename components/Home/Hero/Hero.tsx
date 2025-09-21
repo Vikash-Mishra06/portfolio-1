@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="relative h-screen flex items-center justify-center text-white px-6 md:px-10"
+      className="relative h-screen flex items-center justify-center text-white px-6 md:px-10 sm:pt-20 lg:pt-30 sm:pb-16"
     >
       {/* Container split into two columns */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center max-w-6xl w-full">

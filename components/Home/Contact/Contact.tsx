@@ -51,7 +51,7 @@ const Contact = () => {
       viewport={{ once: true }}
       transition={{ staggerChildren: 0.2 }}
       id="contact"
-      className="flex flex-col lg:flex-row items-center bg-[#000000] gap-10 px-4 sm:px-12 lg:px-24 xl:px-40 pt-16 pb-16 text-gray-700 dark:text-white"
+      className="flex flex-col lg:flex-row items-center bg-[#000000] gap-10 px-4 sm:px-12 lg:px-24 xl:px-40 sm:pt-16 sm:pb-16 text-gray-700 dark:text-white"
     >
       {/* Left Side - Form */}
       <div className="w-full lg:w-[50%]">
@@ -134,7 +134,7 @@ const Contact = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-max flex gap-2 border border-gray-400 text-white text-sm px-10 py-3 rounded-full cursor-pointer hover:scale-103 transition-all disabled:opacity-50"
+            className="w-max flex gap-2 border border-gray-400 text-white text-sm px-10 py-3 rounded-full cursor-pointer hover:bg-[#111116] transition-all disabled:opacity-50"
           >
             {loading ? "Sending..." : "Submit"}
           </button>

@@ -7,7 +7,7 @@ import SpotlightCard from "../../../SpotlightCard";
 
 const Services = () => {
   return (
-    <div id="services" className=" pt-16 pb-16 bg-[#000000]">
+    <div id="services" className=" sm:pt-16 sm:pb-16 bg-[#000000]">
       <motion.h1
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
