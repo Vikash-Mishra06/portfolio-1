@@ -102,11 +102,11 @@ const About = () => {
   const words = paragraph.split(" ");
 
   return (
-    <section id="about" className="px-6 sm:px-12 lg:px-40 sm:pt-16 sm:pb-16 bg-black">
+    <section id="about" className="px-6 sm:px-12 lg:px-40 pt-16 pb-16 bg-black">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-12">
         {/* Left Section */}
         <div className="lg:w-1/2">
-          <h1 className="text-gray-100 text-4xl font-semibold">About Me</h1>
+          <h1 className="text-gray-100 text-5xl font-semibold">About Me</h1>
           <h1 className="text-gray-300 text-3xl font-semibold pt-10">I&apos;m <span className="text-[#8B5CF6]"> Vikash </span>Mishra,</h1>
 
           {/* Animated paragraph */}
@@ -116,7 +116,7 @@ const About = () => {
                 key={i}
                 initial={{ opacity: 0.2, color: "#9ca3af" }} // start gray & faded
                 whileInView={{ opacity: 1, color: "#D1D5DC" }} // brighten
-                transition={{ duration: 0.6, delay: i * 0.1 }}
+                transition={{ duration: 0.6, delay: i * 0.05 }}
                 viewport={{ once: true }}
                 className="mr-1"
               >
@@ -143,7 +143,7 @@ const About = () => {
 
         {/* Right Section */}
         <div className="w-full lg:w-1/2 text-white max-w-3xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-semibold mb-6">What I do?</h2>
+          <h2 className="text-5xl font-semibold mb-10">What I do?</h2>
           <div className="space-y-4">
             {services.map((service, index) => (
               <AccordionItem

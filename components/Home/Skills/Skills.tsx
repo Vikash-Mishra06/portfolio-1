@@ -23,7 +23,7 @@ const cardVariants = {
 
 const Skills = () => {
   return (
-    <div id="skills" className="sm:pt-16 sm:pb-16 bg-[#000000] overflow-x-hidden">
+    <div id="skills" className="pt-16 pb-16 bg-[#000000] overflow-x-hidden">
       <div className="w-[90%] sm:w-[80%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-20 lg:gap-10">
         
         {/* LEFT COLUMN - Tech Stack / Tools */}

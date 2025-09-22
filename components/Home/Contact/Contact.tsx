@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Questions from "../Questions/Questions";
 
 const Contact = () => {
   const [result, setResult] = useState("");
@@ -45,18 +46,23 @@ const Contact = () => {
   };
 
   return (
+    <>
     <motion.div
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
       transition={{ staggerChildren: 0.2 }}
       id="contact"
-      className="flex flex-col lg:flex-row items-center bg-[#000000] gap-10 px-4 sm:px-12 lg:px-24 xl:px-40 sm:pt-16 sm:pb-16 text-gray-700 dark:text-white"
+      className="flex flex-col lg:flex-row items-center bg-[#000000] gap-10 px-4 sm:px-12 lg:px-24 xl:px-40 pt-16 pb-16 text-gray-700 dark:text-white"
     >
       {/* Left Side - Form */}
       <div className="w-full lg:w-[50%]">
-        <div className="pb-10">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+        <div className="pb-10 flex flex-col gap-5">
+        <div className="flex items-center justify-start gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="text-[#8B5CF6] lucide lucide-sparkle" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path></svg>
+        <h1 className="text-xl shiny-text text-[#8B5CF6]">LET'S CONNECT</h1>
+        </div>
+          <h1 className="text-5xl">
             Let&apos;s Connect
           </h1>
         </div>
@@ -166,6 +172,8 @@ const Contact = () => {
         </div>
       </motion.div>
     </motion.div>
+    <Questions />
+    </>
   );
 };
 

@@ -47,7 +47,7 @@ const Hero = () => {
             className="mt-6 text-left text-md sm:text-xl md:text-xl font-semibold flex justify-start items-center"
           >
             I&apos;m a
-            <span className="pl-2 text-[#7C3BEB] font-semibold tracking-wider ">
+            <span className="pl-2 text-[#8B5CF6] font-semibold tracking-wider ">
               <Typewriter
                 options={{
                   strings: [
