@@ -25,12 +25,17 @@ const Skills = () => {
   return (
     <div id="skills" className="pt-16 pb-16 bg-[#000000] overflow-x-hidden">
       <div className="w-[90%] sm:w-[80%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-20 lg:gap-10">
-        
         {/* LEFT COLUMN - Tech Stack / Tools */}
         <div className="relative space-y-10">
-          <h1 className="text-4xl font-semibold text-gray-300 text-center pb-5">
+          <motion.h1
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="text-4xl font-semibold text-gray-300 text-center pb-5"
+          >
             Tools & Technologies
-          </h1>
+          </motion.h1>
           <div className="absolute top-0 left-3 bottom-0 w-[3px] bg-gradient-to-t from-blue-400 to-transparent" />
 
           {/* Frontend */}
@@ -45,9 +50,12 @@ const Skills = () => {
               viewport={{ once: true }}
               className="bg-[#0F172A] p-5 rounded-2xl shadow-lg border border-gray-400 hover:border-blue-400"
             >
-              <span className="text-gray-200 text-md font-semibold">Frontend-</span>
+              <span className="text-gray-200 text-md font-semibold">
+                Frontend-
+              </span>
               <p className="text-gray-300 pt-2 text-sm">
-                HTML, CSS, Tailwind CSS, JavaScript, React.js, Next.js, TypeScript
+                HTML, CSS, Tailwind CSS, JavaScript, React.js, Next.js,
+                TypeScript
               </p>
             </motion.div>
           </div>
@@ -64,7 +72,9 @@ const Skills = () => {
               viewport={{ once: true }}
               className="bg-[#0F172A] p-5 rounded-2xl shadow-lg border border-gray-400 hover:border-blue-400"
             >
-              <span className="text-gray-200 text-md font-semibold">Backend-</span>
+              <span className="text-gray-200 text-md font-semibold">
+                Backend-
+              </span>
               <p className="text-gray-300 pt-2 text-sm">
                 Node.js, Express.js, MongoDB, JWT, Web Sockets
               </p>
@@ -105,9 +115,12 @@ const Skills = () => {
               viewport={{ once: true }}
               className="bg-[#0F172A] p-5 rounded-2xl shadow-lg border border-gray-400 hover:border-blue-400"
             >
-              <span className="font-semibold text-md text-gray-200">AI Tools-</span>
+              <span className="font-semibold text-md text-gray-200">
+                AI Tools-
+              </span>
               <p className="text-gray-300 pt-2 text-sm">
-                ChatGPT, GitHub Copilot, Cursor AI, MidJourney, Claude AI, Perplexity
+                ChatGPT, GitHub Copilot, Cursor AI, MidJourney, Claude AI,
+                Perplexity
               </p>
             </motion.div>
           </div>
@@ -115,9 +128,15 @@ const Skills = () => {
 
         {/* RIGHT COLUMN - Education / Courses / Certifications */}
         <div className="relative space-y-10">
-          <h1 className="text-4xl font-semibold text-gray-300 text-center pb-5">
+          <motion.h1
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="text-4xl font-semibold text-gray-300 text-center pb-5"
+          >
             Education & Certifications
-          </h1>
+          </motion.h1>
           <div className="absolute top-0 left-3 bottom-0 w-[3px] bg-gradient-to-t from-blue-400 to-transparent" />
 
           {/* Education */}
@@ -132,7 +151,9 @@ const Skills = () => {
               viewport={{ once: true }}
               className="bg-[#0F172A] p-5 rounded-2xl shadow-lg border border-gray-400 hover:border-blue-400"
             >
-              <h2 className="text-md font-semibold text-gray-300">Qualification-</h2>
+              <h2 className="text-md font-semibold text-gray-300">
+                Qualification-
+              </h2>
               <h3 className="text-lg font-semibold text-gray-200 pt-2">
                 Bachelor of Science in IT (2022 - 2025)
               </h3>
@@ -176,7 +197,9 @@ const Skills = () => {
               viewport={{ once: true }}
               className="bg-[#0F172A] p-5 rounded-2xl shadow-lg border border-gray-400 hover:border-blue-400"
             >
-              <span className="text-gray-200 text-md font-semibold">Certifications-</span>
+              <span className="text-gray-200 text-md font-semibold">
+                Certifications-
+              </span>
               <ul className="list-disc list-inside text-gray-300 space-y-1 pt-2 text-sm">
                 <li>Frontend Based Hackathon – Participation (Sheryians)</li>
                 <li>Frontend Development</li>

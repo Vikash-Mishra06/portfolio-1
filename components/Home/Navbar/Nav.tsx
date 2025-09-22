@@ -6,6 +6,7 @@ import Instagram from "./../../../public/images/Instagram_white.png";
 import Linkedin from "./../../../public/images/LinkedIN_white.png";
 import { HiBars3BottomRight } from "react-icons/hi2";
 import SocialLinks from "@/components/SocialLinks";
+import { motion } from "framer-motion";
 
 type Props = {
   openNav: () => void;
@@ -15,7 +16,12 @@ const Nav = ({openNav}:Props) => {
   const [navbg, setNavbg] = useState(false)
   
   return (
-    <div className="transition-all duration-300 h-[9vh] z-[1000] fixed w-full px-5 md:px-10 flex justify-between items-center gap-5 bg-black/70 backdrop-blur-md shadow-md">
+    <motion.div
+    initial={{ opacity: 0, y: -30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.3 }}
+        viewport={{ once: true }}
+    className="transition-all duration-300 h-[9vh] z-[1000] fixed w-full px-5 md:px-10 flex justify-between items-center gap-5 bg-black/70 backdrop-blur-md shadow-md">
       <div className="flex items-center w-[90%] h-auto gap-6">
         <div>
           <Link href="#">
@@ -49,7 +55,7 @@ const Nav = ({openNav}:Props) => {
       </div>
 
       <HiBars3BottomRight onClick={openNav} className="lg:hidden w-8 h-8 text-white cursor-pointer"/>
-    </div>
+    </motion.div>
   );
 };
 

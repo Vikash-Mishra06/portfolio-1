@@ -2,6 +2,7 @@
 import SocialLinks from "@/components/SocialLinks";
 import React from "react";
 import { CgClose } from "react-icons/cg";
+import { motion } from "framer-motion";
 
 type Props = {
   showNav: boolean;
@@ -11,7 +12,12 @@ type Props = {
 const MobileNav = ({ closeNav, showNav }: Props) => {
   const navOpen = showNav ? "translate-x-0" : "translate-x-[100%]";
   return (
-    <div id="mobilenav" className={`${navOpen} fixed inset-0 z-[100002]`}>
+    <motion.div
+    initial={{ opacity: 0, y: -30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.3 }}
+        viewport={{ once: true }}
+    id="mobilenav" className={`${navOpen} fixed inset-0 z-[100002]`}>
       {/* Overlay */}
       <div
         className="absolute inset-0 bg-black/70 transition-opacity duration-300"
@@ -82,7 +88,7 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
         onClick={closeNav}
         className="absolute top-[0.7rem] right-[1.4rem] sm:w-10 sm:h-10 w-8 h-8 text-[#8B5CF6]"
       />
-    </div>
+    </motion.div>
   );
 };
 

@@ -103,7 +103,12 @@ const About = () => {
 
   return (
     <section id="about" className="px-6 sm:px-12 lg:px-40 pt-16 pb-16 bg-black">
-      <div className="flex items-center justify-start gap-2 mb-5">
+      <motion.div
+      initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
+      className="flex items-center justify-start gap-2 mb-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="18"
@@ -111,19 +116,34 @@ const About = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="text-[#8B5CF6] lucide lucide-sparkle"
               aria-hidden="true"
             >
               <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
             </svg>
-            <h1 className="text-xl shiny-text text-[#8B5CF6]">ABOUT ME</h1>
-          </div>
-      <div className="flex flex-col lg:flex-row justify-between items-start gap-20 lg:gap-10">
+            <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
+            className="text-xl shiny-text text-[#8B5CF6]">ABOUT ME</motion.h1>
+          </motion.div>
+      <motion.div
+      initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
+      className="flex flex-col lg:flex-row justify-between items-start gap-20 lg:gap-10">
         {/* Left Section */}
-        <div className="lg:w-1/2">
+        <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
+        className="lg:w-1/2">
           <h1 className="text-gray-100 text-5xl">About Me</h1>
           <h1 className="text-gray-300 text-3xl font-semibold pt-8">I&apos;m <span className="text-[#8B5CF6]"> Vikash </span>Mishra,</h1>
 
@@ -157,12 +177,27 @@ const About = () => {
               <span>RESUME</span>
             </button>
           </div>
-        </div>
+        </motion.div>
 
         {/* Right Section */}
-        <div className="w-full lg:w-1/2 text-white max-w-3xl mx-auto">
-          <h2 className="text-5xl mb-10">What I do?</h2>
-          <div className="space-y-4">
+        <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
+        className="w-full lg:w-1/2 text-white max-w-3xl mx-auto">
+          <motion.h2
+          initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
+          className="text-5xl mb-10">Areas of Expertise</motion.h2>
+          <motion.div
+          initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
+          className="space-y-4">
             {services.map((service, index) => (
               <AccordionItem
                 key={index}
@@ -171,9 +206,9 @@ const About = () => {
                 onClick={() => handleToggle(index)}
               />
             ))}
-          </div>
-        </div>
-      </div>
+          </motion.div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 };
