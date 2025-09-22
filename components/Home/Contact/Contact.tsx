@@ -163,7 +163,7 @@ const Contact = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.4 }}
         viewport={{ once: true }}
-        className="w-full lg:w-[50%] pt-10"
+        className="w-full lg:w-[50%] pt-20"
       >
         <div className="bg-[#111116] flex flex-col gap-5 p-10 rounded-2xl">
           <div className="flex items-center justify-start gap-2 shiny-text">

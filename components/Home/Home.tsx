@@ -7,6 +7,7 @@ import Skills from './Skills/Skills'
 import About from './About/About'
 import Contact from './Contact/Contact'
 import Footer from './Footer/Footer'
+import TechStackAnimation from '../TechStackAnimation'
 const Home = () => {
   return (
     <div className='overflow-x-hidden'>
@@ -15,6 +16,7 @@ const Home = () => {
       <Skills />
       <Projects />
       <About />
+      <TechStackAnimation />
       <Contact />
       <Footer />
     </div>

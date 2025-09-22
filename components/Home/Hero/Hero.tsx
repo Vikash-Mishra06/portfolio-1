@@ -23,11 +23,8 @@ const Hero = () => {
             viewport={{ once: true }}
             className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-[60px] font-bold  text-gray-300"
           >
-            <span className="text-gray-400 font-light text-left">Hi!👋</span>
-            <br /> I&apos;m <span className="text-[#8B5CF6] pt-2">Vikash </span>
-            Mishra,
-            <br />
-            <p className="mt-6 text-sm sm:text-md lg:text-lg font-medium text-gray-400 tracking-wide text-left">
+            <span className="text-gray-400 font-light text-left">Hi!👋</span><br />I&apos;m <span className="inline-block text-[#8B5CF6] mt-2">Vikash</span> Mishra,<br />
+            <p className="mt-5 text-sm sm:text-md lg:text-lg font-medium text-gray-400 tracking-wide text-left">
               A Passionate
               <span className="text-gray-200 ">
                 {" "}
@@ -44,7 +41,7 @@ const Hero = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.7 }}
             viewport={{ once: true }}
-            className="mt-6 text-left text-md sm:text-xl md:text-xl font-semibold flex justify-start items-center"
+            className="mt-5 text-left text-md sm:text-xl md:text-xl font-semibold flex justify-start items-center"
           >
             I&apos;m a
             <span className="pl-2 text-[#8B5CF6] font-semibold tracking-wider ">
@@ -133,7 +130,7 @@ const Hero = () => {
             alt="heroImage"
             width={450}
             height={450}
-            className="rounded-full border-8 border-black/30 shadow-lg hidden md:block"
+            className="rounded-full border-8 border-black/30 shadow-lg hidden md:block z-[999]"
           />
         </motion.div>
       </div>

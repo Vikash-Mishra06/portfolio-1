@@ -39,30 +39,17 @@ const Nav = ({ openNav }: Props) => {
           </Link>
           {/* logo */}
         </div>
-        <div className="hidden lg:flex items-center space-x-5">
-          <ul>
-            <li className="text-md text-blue-400 font-medium transition-all duration-300 space-x-5">
-              <a className="hover:text-[#7C3AED]" href="#hero">
-                Home
-              </a>
-              <a className="hover:text-[#7C3AED]" href="#services">
-                Services
-              </a>
-              <a className="hover:text-[#7C3AED]" href="#skills">
-                Skills & Tools
-              </a>
-              <a className="hover:text-[#7C3AED]" href="#projects">
-                Projects
-              </a>
-              <a className="hover:text-[#7C3AED]" href="#about">
-                About
-              </a>
-              <a className="hover:text-[#7C3AED]" href="#contact">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
+        <div className="hidden lg:flex items-center justify-center w-full">
+        <ul className="flex space-x-5 text-md text-blue-400 font-medium">
+          <li><a className="hover:text-[#7C3AED]" href="#hero">Home</a></li>
+          <li><a className="hover:text-[#7C3AED]" href="#services">Services</a></li>
+          <li><a className="hover:text-[#7C3AED]" href="#skills">Skills & Tools</a></li>
+          <li><a className="hover:text-[#7C3AED]" href="#projects">Projects</a></li>
+          <li><a className="hover:text-[#7C3AED]" href="#about">About</a></li>
+          <li><a className="hover:text-[#7C3AED]" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
       </div>
       <div className="hidden lg:flex gap-4 cursor-pointer">
         <SocialLinks />
