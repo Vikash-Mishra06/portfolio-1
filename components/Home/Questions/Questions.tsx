@@ -50,14 +50,16 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
     >
       {/* Header */}
       <div className="flex justify-between items-center">
-        <div className="flex items-center gap-3 text-lg font-medium">
+        <div className="flex items-center gap-3 text-lg font-medium px-2">
           <span className="text-gray-300 text-sm sm:text-lg">{questions}</span>
         </div>
-        {isOpen ? (
-          <FiChevronUp className="text-[#7C3BEB] text-2xl" />
-        ) : (
-          <FiChevronDown className="text-[#7C3BEB] text-2xl" />
-        )}
+        <div className="w-8 h-8 flex items-center justify-center">
+          {isOpen ? (
+            <FiChevronUp className="text-[#7C3BEB] text-2xl" />
+          ) : (
+            <FiChevronDown className="text-[#7C3BEB] text-2xl" />
+          )}
+        </div>
       </div>
 
       {/* Expandable content */}
@@ -91,14 +93,27 @@ const Questions = () => {
       className="px-6 sm:px-12 lg:px-40 pt-16 pb-16 bg-black"
     >
       <div className="flex flex-col lg:flex-row justify-between items-start gap-12">
-
         {/* Left Section */}
-        
+
         <div className="w-full lg:w-1/3 flex flex-col items-start justify-start gap-5">
-        <div className="flex items-center justify-center gap-2">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="text-[#8B5CF6] lucide lucide-sparkle" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path></svg>
-        <h1 className="text-xl shiny-text text-[#8B5CF6]">FAQ&apos;S</h1>
-        </div>
+          <div className="flex items-center justify-center gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="text-[#8B5CF6] lucide lucide-sparkle"
+              aria-hidden="true"
+            >
+              <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+            </svg>
+            <h1 className="text-xl shiny-text text-[#8B5CF6]">FAQ&apos;S</h1>
+          </div>
           <h1 className="text-5xl text-left">
             Have <br /> Questions?
           </h1>

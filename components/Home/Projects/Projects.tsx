@@ -13,7 +13,7 @@ const Projects = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
-        className="text-center text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-400"
+        className="text-center text-4xl lg:text-5xl xl:text-6xl text-gray-400"
       >
         <i>Projects: My</i>
         <br /> Latest--

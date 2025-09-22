@@ -28,7 +28,7 @@ const Skills = () => {
         
         {/* LEFT COLUMN - Tech Stack / Tools */}
         <div className="relative space-y-10">
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-300 text-center pb-5">
+          <h1 className="text-4xl font-semibold text-gray-300 text-center pb-5">
             Tools & Technologies
           </h1>
           <div className="absolute top-0 left-3 bottom-0 w-[3px] bg-gradient-to-t from-blue-400 to-transparent" />
@@ -115,7 +115,7 @@ const Skills = () => {
 
         {/* RIGHT COLUMN - Education / Courses / Certifications */}
         <div className="relative space-y-10">
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-300 text-center pb-5">
+          <h1 className="text-4xl font-semibold text-gray-300 text-center pb-5">
             Education & Certifications
           </h1>
           <div className="absolute top-0 left-3 bottom-0 w-[3px] bg-gradient-to-t from-blue-400 to-transparent" />

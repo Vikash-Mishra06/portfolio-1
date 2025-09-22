@@ -129,7 +129,7 @@ const Hero = () => {
           className="hidden md:flex justify-center md:justify-end"
         >
           <Image
-            src="/images/profile1.png"
+            src="/images/profile3.jpg"
             alt="heroImage"
             width={450}
             height={450}
