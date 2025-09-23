@@ -25,16 +25,16 @@ const logos = [
 
 const TechStackAnimation = () => {
   return (
-    <div className="bg-[#000000] flex items-center justify-center">
-  <div className="relative overflow-hidden py-10 w-[80%] mask-gradient">
+    <div className="bg-[#000000] flex items-center justify-center ">
+  <div className="relative overflow-hidden py-5 w-full sm:w-[80%] mask-gradient">
     <div className="flex animate-scroll gap-4">
       {[...logos, ...logos].map((logo, i) => (
         <div
           key={i}
-          className="flex items-center gap-2 rounded-2xl bg-[#111116] px-4 py-2 text-gray-200 text-sm"
+          className="flex items-center gap-2 rounded-2xl bg-[#111116]/50 px-4 py-2 text-gray-200 text-sm"
         >
-          <Image src={logo.src} alt={logo.name} width={20} height={20} />
-          <h1>{logo.name}</h1>
+          <Image src={logo.src} alt={logo.name} width={18} height={18} loading="lazy" />
+          <h1 className="text-gray-300">{logo.name}</h1>
         </div>
       ))}
     </div>
