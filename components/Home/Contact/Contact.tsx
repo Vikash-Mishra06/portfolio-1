@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Questions from "../Questions/Questions";
 
 const Contact = () => {
   const [result, setResult] = useState("");
@@ -175,6 +174,7 @@ const Contact = () => {
             width={100}
             height={100}
             alt=""
+            loading="lazy"
             className="rounded-full border-4 border-gray-950/80"
           />
           <p className="text-md text-gray-300">
@@ -185,7 +185,6 @@ const Contact = () => {
         </div>
       </motion.div>
     </motion.div>
-    <Questions />
     </>
   );
 };

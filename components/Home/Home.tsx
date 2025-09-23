@@ -8,6 +8,9 @@ import About from './About/About'
 import Contact from './Contact/Contact'
 import Footer from './Footer/Footer'
 import TechStackAnimation from '../TechStackAnimation'
+import Questions from './Questions/Questions'
+import Achievements from './Achievements/Achievements'
+
 const Home = () => {
   return (
     <div className='overflow-x-hidden'>
@@ -18,6 +21,8 @@ const Home = () => {
       <About />
       <TechStackAnimation />
       <Contact />
+      <Questions />
+      <Achievements />
       <Footer />
     </div>
   )

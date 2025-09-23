@@ -130,6 +130,7 @@ const Hero = () => {
             alt="heroImage"
             width={450}
             height={450}
+            loading="lazy"
             className="rounded-full border-8 border-black/30 shadow-lg hidden md:block z-[999]"
           />
         </motion.div>
