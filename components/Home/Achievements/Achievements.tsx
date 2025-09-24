@@ -154,12 +154,12 @@ const Projects = () => {
         </motion.div>
       </div>
 
-      <div className="w-[80%] mx-auto mt-10">
+      <div className="w-full px-5 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0 mt-10">
         <Link
           href="https://www.linkedin.com/in/vikash-mishra-6803a1362/"
           className="text-gray-400 flex items-center justify-center py-2 text-sm sm:text-md md:text-lg lg:text-xl border border-gray-400/40 hover:bg-[#1E1E1E]/40 rounded-2xl"
         >
-          More on Linkedin <FaLinkedin className="ml-2 text-2xl" />
+          More Certificates on Linkedin <FaLinkedin className="ml-2 text-2xl" />
         </Link>
       </div>
 
