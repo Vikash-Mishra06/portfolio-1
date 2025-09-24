@@ -52,8 +52,9 @@ const Contact = () => {
       viewport={{ once: true }}
       transition={{ staggerChildren: 0.2 }}
       id="contact"
-      className="flex flex-col lg:flex-row items-center bg-[#000000] gap-10 px-4 sm:px-12 lg:px-24 xl:px-40 pt-16 pb-16 text-gray-700 dark:text-white"
+      className=" bg-[#000000] pt-16 pb-16 text-gray-300 "
     >
+      <div className="w-full px-5 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0 flex flex-col lg:flex-row items-center gap-10">
       {/* Left Side - Form */}
       <div className="w-full lg:w-[50%]">
         <motion.div
@@ -71,7 +72,7 @@ const Contact = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
-          className="text-5xl">
+          className="text-5xl text-white">
             Let&apos;s Connect
           </motion.h1>
         </motion.div>
@@ -86,7 +87,7 @@ const Contact = () => {
         >
           {/* Name */}
           <div className="flex flex-col">
-            <label htmlFor="name" className="mb-2 text-sm font-medium">
+            <label htmlFor="name" className="mb-2 text-sm font-medium text-gray-300">
               Your Name
             </label>
             <div className="flex pl-3 rounded-lg border border-gray-400 dark:border-gray-600 items-center">
@@ -108,7 +109,7 @@ const Contact = () => {
 
           {/* Email */}
           <div className="flex flex-col">
-            <label htmlFor="email" className="mb-2 text-sm font-medium">
+            <label htmlFor="email" className="mb-2 text-sm font-medium text-gray-300">
               Your Email
             </label>
             <div className="flex pl-3 rounded-lg border border-gray-400 dark:border-gray-600 items-center">
@@ -130,7 +131,7 @@ const Contact = () => {
 
           {/* Message */}
           <div className="sm:col-span-2 flex flex-col">
-            <label htmlFor="message" className="mb-2 text-sm font-medium">
+            <label htmlFor="message" className="mb-2 text-sm font-medium text-gray-300">
               Enter Message
             </label>
             <div className="flex rounded-lg border border-gray-400 dark:border-gray-600">
@@ -139,7 +140,7 @@ const Contact = () => {
                 name="message"
                 placeholder="Enter your message"
                 rows={8}
-                className="w-full p-3 text-sm outline-0"
+                className="w-full p-3 text-sm outline-0 "
                 required
               />
             </div>
@@ -149,7 +150,7 @@ const Contact = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-max flex gap-2 border border-gray-400 text-white text-sm px-10 py-3 rounded-full cursor-pointer hover:bg-[#111116] transition-all disabled:opacity-50"
+            className="w-max flex gap-2 border border-gray-400 text-gray-300 text-sm px-10 py-3 rounded-full cursor-pointer hover:bg-[#111116] transition-all disabled:opacity-50"
           >
             {loading ? "Sending..." : "Submit"}
           </button>
@@ -184,6 +185,7 @@ const Contact = () => {
           </p>
         </div>
       </motion.div>
+        </div>
     </motion.div>
     </>
   );

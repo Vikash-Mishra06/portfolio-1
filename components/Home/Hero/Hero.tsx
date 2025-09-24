@@ -10,26 +10,27 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="relative h-screen flex items-center justify-center text-white px-6 md:px-10 sm:pt-20 lg:pt-30 sm:pb-16"
+      className="relative h-screen flex items-center justify-center text-white"
     >
-      {/* Container split into two columns */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center max-w-6xl w-full">
+      {/* Main container with responsive width */}
+      <div className="w-full px-5 pt-10 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 items-center max-w-[77rem]">
         {/* LEFT SIDE - Text Content */}
-        <div className=" md:text-left gap-10">
+        <div className="md:text-left gap-10">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
-            className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-[60px] font-bold  text-gray-300"
+            className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-[62px] font-bold text-gray-300"
           >
-            <span className="text-gray-400 font-light text-left">Hi!👋</span><br />I&apos;m <span className="inline-block text-[#8B5CF6] mt-2">Vikash</span> Mishra,<br />
+            <span className="text-gray-400 font-light text-left">Hi!👋</span>
+            <br />
+            I&apos;m{" "}
+            <span className="inline-block text-[#8B5CF6] mt-2">Vikash</span>{" "}
+            Mishra,<br />
             <p className="mt-5 text-sm sm:text-md lg:text-lg font-medium text-gray-400 tracking-wide text-left">
               A Passionate
-              <span className="text-gray-200 ">
-                {" "}
-                MERN Developer, Full Stack Developer.
-              </span>
+              <span className="text-gray-200"> MERN Developer, Full Stack Developer.</span>
               <br />
               Building<span className="text-gray-200"> Data-Driven</span> web
               apps.
@@ -44,7 +45,7 @@ const Hero = () => {
             className="mt-5 text-left text-md sm:text-xl md:text-xl font-semibold flex justify-start items-center"
           >
             I&apos;m a
-            <span className="pl-2 text-[#8B5CF6] font-semibold tracking-wider ">
+            <span className="pl-2 text-[#8B5CF6] font-semibold tracking-wider">
               <Typewriter
                 options={{
                   strings: [
@@ -62,6 +63,7 @@ const Hero = () => {
               />
             </span>
           </motion.h2>
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -77,7 +79,7 @@ const Hero = () => {
             >
               Get in Touch
             </Link>
-            <div className="flex ">
+            <div className="flex">
               <button className="flex items-center gap-2 text-gray-400 hover:text-gray-100 text-md font-medium rounded-xl cursor-pointer tracking-wide">
                 <span>
                   <i className="ri-file-text-line"></i>
@@ -86,6 +88,7 @@ const Hero = () => {
               </button>
             </div>
           </motion.div>
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

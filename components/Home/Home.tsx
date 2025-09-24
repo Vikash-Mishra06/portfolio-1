@@ -16,13 +16,13 @@ const Home = () => {
     <div className='overflow-x-hidden'>
       <Hero />
       <Services />
-      <Skills />
-      <Projects />
       <About />
+      <Projects />
+      <Skills />
       <TechStackAnimation />
-      <Contact />
-      <Questions />
       <Achievements />
+      <Questions />
+      <Contact />
       <Footer />
     </div>
   )

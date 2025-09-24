@@ -24,7 +24,7 @@ const cardVariants = {
 const Skills = () => {
   return (
     <div id="skills" className="pt-16 pb-16 bg-[#000000] overflow-x-hidden">
-      <div className="w-[90%] sm:w-[80%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-20 lg:gap-10">
+      <div className="w-full px-5 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 xl:grid-cols-2 gap-20 lg:gap-10">
         {/* LEFT COLUMN - Tech Stack / Tools */}
         <div className="relative space-y-10">
           <motion.h1
@@ -32,7 +32,7 @@ const Skills = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="text-4xl font-semibold text-gray-300 text-center pb-5"
+            className="text-4xl text-white text-center pb-5"
           >
             Tools & Technologies
           </motion.h1>
@@ -133,7 +133,7 @@ const Skills = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="text-4xl font-semibold text-gray-300 text-center pb-5"
+            className="text-4xl text-white text-center pb-5"
           >
             Education & Certifications
           </motion.h1>

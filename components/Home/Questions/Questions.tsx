@@ -91,11 +91,11 @@ const Questions = () => {
   return (
     <section
       id="questions"
-      className="px-6 sm:px-12 lg:px-40 pt-16 pb-16 bg-black"
+      className="pt-16 pb-16 bg-black "
     >
-      <div className="flex flex-col lg:flex-row justify-between items-start gap-12">
+      <div className="w-full px-5 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0">
+      <div className="flex flex-col lg:flex-row justify-between items-start gap-12 ">
         {/* Left Section */}
-
         <div className="w-full lg:w-1/3 flex flex-col items-start justify-start gap-5">
           <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -125,7 +125,7 @@ const Questions = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
-          className="text-5xl text-left">
+          className="text-5xl text-left text-white">
             Have <br /> Questions?
           </motion.h1>
         </div>
@@ -148,6 +148,7 @@ const Questions = () => {
             ))}
           </div>
         </motion.div>
+      </div>
       </div>
     </section>
   );

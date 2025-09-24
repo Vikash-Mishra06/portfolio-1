@@ -19,7 +19,7 @@ const services = [
     title: "Backend Development",
     icon: <FaServer />,
     items: [
-      "RESTful API & GraphQL development",
+      "REST ful API & GraphQL development",
       "Database design and optimization",
       "Authentication & security best practices",
     ],
@@ -79,7 +79,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, icon, items, isOpe
         }`}
       >
         <div className="overflow-hidden">
-          <ul className="pl-8 list-disc text-gray-400 space-y-1 text-sm">
+          <ul className="pl-8 list-disc text-gray-300 space-y-1 text-sm">
             {items.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
@@ -102,7 +102,8 @@ const About = () => {
   const words = paragraph.split(" ");
 
   return (
-    <section id="about" className="px-6 sm:px-12 lg:px-40 pt-16 pb-16 bg-black">
+    <section id="about" className=" pt-16 pb-16 bg-black">
+      <div className="w-full px-5 pt-10 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0">
       <motion.div
       initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -144,7 +145,7 @@ const About = () => {
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
         className="lg:w-1/2">
-          <h1 className="text-gray-100 text-5xl">About Me</h1>
+          <h1 className="text-white text-5xl">About Me</h1>
           <h1 className="text-gray-300 text-3xl font-semibold pt-8">I&apos;m <span className="text-[#8B5CF6]"> Vikash </span>Mishra,</h1>
 
           {/* Animated paragraph */}
@@ -185,13 +186,13 @@ const About = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
-        className="w-full lg:w-1/2 text-white max-w-3xl mx-auto">
+        className="w-full lg:w-1/2  max-w-3xl mx-auto">
           <motion.h2
           initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
-          className="text-5xl mb-10">Areas of Expertise</motion.h2>
+          className="text-5xl mb-10 text-white">Areas of Expertise</motion.h2>
           <motion.div
           initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -209,6 +210,7 @@ const About = () => {
           </motion.div>
         </motion.div>
       </motion.div>
+      </div>
     </section>
   );
 };

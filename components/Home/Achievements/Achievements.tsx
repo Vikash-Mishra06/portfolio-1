@@ -28,7 +28,7 @@ const Projects = () => {
         </span>{" "}
       </motion.h1>
 
-      <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+      <div className="w-full px-5 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
         {/* Card 1 */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}

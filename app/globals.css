@@ -129,6 +129,7 @@ body {
   background: linear-gradient(90deg, #8B5CF6, #C084FC, #8B5CF6);
   background-size: 200% auto;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 2.5s linear infinite;
 }
