@@ -29,6 +29,7 @@ const Projects = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           viewport={{ once: true }}
         >
+          <Link href='https://agency-ai-teal.vercel.app/'>
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
             <Image
               src="/images/image.png"
@@ -38,6 +39,7 @@ const Projects = () => {
               className="rounded-lg hover:scale-103 transition-all duration-300"
             />
           </div>
+          </Link>
           <div className="flex items-center justify-between">
             <div>
               <h1 className="mt-4 text-lg sm:text-2xl font-semibold text-gray-300">
@@ -78,6 +80,7 @@ const Projects = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           viewport={{ once: true }}
         >
+          <Link href='https://nexovate-agency.vercel.app/'>
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
             <Image
               src="/images/image2.png"
@@ -87,6 +90,7 @@ const Projects = () => {
               className="rounded-lg hover:scale-103 transition-all duration-300"
             />
           </div>
+          </Link>
           <div className="flex items-center justify-between">
             <div>
               <h1 className="mt-4 text-lg sm:text-2xl font-semibold text-gray-300">
@@ -127,6 +131,7 @@ const Projects = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           viewport={{ once: true }}
         >
+          <Link href='https://menscoin-redesign.vercel.app/'>
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
             <Image
               src="/images/image3.png"
@@ -136,6 +141,7 @@ const Projects = () => {
               className="rounded-lg hover:scale-103 transition-all duration-300"
             />
           </div>
+          </Link>
           <div className="flex items-center justify-between">
             <div>
               <h1 className="mt-4 text-lg sm:text-2xl font-semibold text-gray-300">
@@ -176,6 +182,7 @@ const Projects = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           viewport={{ once: true }}
         >
+          <Link href='https://k72-ca-project.vercel.app/'>
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
             <Image
               src="/images/image4.png"
@@ -185,6 +192,7 @@ const Projects = () => {
               className="rounded-lg hover:scale-103 transition-all duration-300"
             />
           </div>
+          </Link>
           <div className="flex items-center justify-between">
             <div>
               <h1 className="mt-4 text-lg sm:text-2xl font-semibold text-gray-300">
@@ -225,6 +233,7 @@ const Projects = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           viewport={{ once: true }}
         >
+          <Link href='https://flybytravelbooking.netlify.app/'>
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
             <Image
               src="/images/image5.png"
@@ -234,6 +243,7 @@ const Projects = () => {
               className="rounded-lg hover:scale-103 transition-all duration-300"
             />
           </div>
+          </Link>
           <div className="flex items-center justify-between">
             <div>
               <h1 className="mt-4 text-lg sm:text-2xl font-semibold text-gray-300">
@@ -274,6 +284,7 @@ const Projects = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           viewport={{ once: true }}
         >
+          <Link href='https://bike-essentials.netlify.app/'>
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
             <Image
               src="/images/image6.png"
@@ -283,6 +294,7 @@ const Projects = () => {
               className="rounded-lg hover:scale-103 transition-all duration-300"
             />
           </div>
+          </Link>
           <div className="flex items-center justify-between">
             <div>
               <h1 className="mt-4 text-lg sm:text-2xl font-semibold text-gray-300">

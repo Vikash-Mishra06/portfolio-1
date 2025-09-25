@@ -5,11 +5,11 @@ import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
-const Projects = () => {
+const Achievements = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
-    <div id="projects" className="pt-16 pb-16 bg-[#000000]">
+    <div id="achievements" className="pt-16 pb-16 bg-[#000000]">
       <motion.h1
         initial={{ opacity: 0, y: 0 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -193,4 +193,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Achievements;

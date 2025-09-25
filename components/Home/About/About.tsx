@@ -155,7 +155,7 @@ const About = () => {
                 key={i}
                 initial={{ opacity: 0.2, color: "#9ca3af" }} // start gray & faded
                 whileInView={{ opacity: 1, color: "#D1D5DC" }} // brighten
-                transition={{ duration: 0.6, delay: i * 0.05 }}
+                transition={{ duration: 0.3, delay: i * 0.05 }}
                 viewport={{ once: true }}
                 className="mr-1"
               >
