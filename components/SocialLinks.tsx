@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const SocialLinks: FC = () => {
   const links = [
     {
-      href: "https://www.linkedin.com/in/vikash-mishra-6803a1362/",
+      href: "https://www.linkedin.com/in/vikash-mishra1206/",
       icon: <FaLinkedin />,
       label: "LinkedIn",
       hoverColor: "hover:text-[#0A66C2]", 

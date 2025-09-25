@@ -80,7 +80,7 @@ const Hero = () => {
               Get in Touch
             </Link>
             <div className="flex">
-              <button className="flex items-center gap-2 text-gray-400 hover:text-gray-100 text-md font-medium rounded-xl cursor-pointer tracking-wide">
+              <button onClick={() => window.open("/Vikash_Mishra_Resume.pdf", "_blank")} className="flex items-center gap-2 text-gray-400 hover:text-gray-100 text-md font-medium rounded-xl cursor-pointer tracking-wide">
                 <span>
                   <i className="ri-file-text-line"></i>
                 </span>

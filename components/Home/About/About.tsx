@@ -173,7 +173,7 @@ const About = () => {
             >
               Get in Touch
             </Link>
-            <button className="flex items-center gap-2 text-gray-400 hover:text-gray-100 text-sm sm:text-base font-medium transition-colors">
+            <button onClick={() => window.open("/Vikash_Mishra_Resume.pdf", "_blank")} className="flex items-center gap-2 text-gray-400 hover:text-gray-100 text-sm sm:text-base font-medium transition-colors">
               <i className="ri-file-text-line"></i>
               <span>RESUME</span>
             </button>

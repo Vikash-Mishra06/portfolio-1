@@ -166,7 +166,7 @@ const Contact = () => {
         viewport={{ once: true }}
         className="w-full lg:w-[50%] pt-20"
       >
-        <div className="bg-[#111116]/40 flex flex-col gap-5 p-10 rounded-2xl">
+        <div className="bg-[#111116]/60 flex flex-col gap-5 p-10 rounded-2xl">
           <div className="flex items-center justify-start gap-2 shiny-text">
             <span className="bg-highlight-primary relative inline-flex h-2 w-2 rounded-full bg-[#8B5CF6] "></span>
         <h1 className="text-md  text-[#8B5CF6]">AVAILABLE FOR WORK</h1>
@@ -180,9 +180,7 @@ const Contact = () => {
             className="rounded-full border-4 border-gray-950/80"
           />
           <p className="text-md text-gray-300">
-            My inbox is always open, Whether you have a project or just want to
-            say Hi. I would love to hear from you. Feel free to contact me and
-            I&apos;ll get back to you.
+            I look forward to the opportunity to collaborate with you. Please fill out the contact form, and I will be in touch with you shortly. I would be delighted to hear from you and welcome any questions or inquiries.
           </p>
           <SocialLinks />
         </div>
