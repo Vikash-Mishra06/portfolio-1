@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import SocialLinks from "@/components/SocialLinks";
 
 const Contact = () => {
   const [result, setResult] = useState("");
@@ -165,7 +166,7 @@ const Contact = () => {
         viewport={{ once: true }}
         className="w-full lg:w-[50%] pt-20"
       >
-        <div className="bg-[#111116] flex flex-col gap-5 p-10 rounded-2xl">
+        <div className="bg-[#111116]/40 flex flex-col gap-5 p-10 rounded-2xl">
           <div className="flex items-center justify-start gap-2 shiny-text">
             <span className="bg-highlight-primary relative inline-flex h-2 w-2 rounded-full bg-[#8B5CF6] "></span>
         <h1 className="text-md  text-[#8B5CF6]">AVAILABLE FOR WORK</h1>
@@ -183,6 +184,7 @@ const Contact = () => {
             say Hi. I would love to hear from you. Feel free to contact me and
             I&apos;ll get back to you.
           </p>
+          <SocialLinks />
         </div>
       </motion.div>
         </div>
