@@ -172,7 +172,7 @@ const Contact = () => {
         <h1 className="text-md  text-[#8B5CF6]">AVAILABLE FOR WORK</h1>
         </div>
           <Image
-            src="/images/profile1.png"
+            src="/images/profile3.png"
             width={100}
             height={100}
             alt=""
