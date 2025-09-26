@@ -127,12 +127,12 @@ const Hero = () => {
           className="hidden md:flex justify-center md:justify-end"
         >
           <Image
-            src="/images/profile3.jpg"
+            src="/images/pic4.png"
             alt="heroImage"
-            width={450}
+            width={500}
             height={450}
             loading="lazy"
-            className="rounded-full border-8 border-black/30 shadow-lg hidden md:block z-[999]"
+            className="rounded-full border-t-10 border-b-10 border-l-2 border-r-2 bg-purple-900/5 border-blue-900/10 shadow-lg hidden md:block z-[999]"
           />
         </motion.div>
       </div>
