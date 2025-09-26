@@ -172,12 +172,12 @@ const Contact = () => {
         <h1 className="text-md  text-[#8B5CF6]">AVAILABLE FOR WORK</h1>
         </div>
           <Image
-            src="/images/profile3.png"
+            src="/images/pic4.png"
             width={100}
             height={100}
             alt=""
             loading="lazy"
-            className="rounded-full border-4 border-gray-950/80"
+            className="rounded-full border-t-10 border-b-10 border-l-2 border-r-2 bg-purple-900/5 border-blue-900/10 shadow-lg "
           />
           <p className="text-md text-gray-300">
             I look forward to the opportunity to collaborate with you. Please fill out the contact form, and I will be in touch with you shortly. I would be delighted to hear from you and welcome any questions or inquiries.
