@@ -166,9 +166,7 @@ const About = () => {
 
           <div className="flex gap-5 pt-5">
             <Link
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=mishravikash0612@gmail.com&su=Let's%20Connect&body=Hi%20Vikash,"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#contact"
               className="px-4 py-2 bg-[#7C3BEB] hover:bg-[#8B5CF6] text-sm sm:text-md font-medium rounded-md lg:rounded-lg cursor-pointer"
             >
               Get in Touch
