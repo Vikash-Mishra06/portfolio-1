@@ -78,7 +78,7 @@ const Hero = () => {
               Get in Touch
             </Link>
             <div className="flex">
-              <button onClick={() => window.open("/Vikash_Mishra_Resume.pdf", "_blank")} className="flex items-center gap-2 text-gray-400 hover:text-gray-100 text-md font-medium rounded-xl cursor-pointer tracking-wide">
+              <button onClick={() => window.open("/Vikash Mishra-Resume.pdf", "_blank")} className="flex items-center gap-2 text-gray-400 hover:text-gray-100 text-md font-medium rounded-xl cursor-pointer tracking-wide">
                 <span>
                   <i className="ri-file-text-line"></i>
                 </span>
@@ -127,7 +127,7 @@ const Hero = () => {
           className="hidden md:flex justify-center md:justify-end"
         >
           <Image
-            src="/images/pic4.png"
+            src="/images/profile3.jpg"
             alt="heroImage"
             width={500}
             height={450}
