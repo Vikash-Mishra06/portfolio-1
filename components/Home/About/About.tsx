@@ -98,7 +98,7 @@ const About = () => {
   };
 
   // 📝 Paragraph split into words
-  const paragraph = `I hold a B.Sc. in IT and I'm a passionate MERN stack and full-stack developer with a strong focus on clean code, scalability, and user-friendly design, data-driven web applications. I've actively completed 20+ projects that span frontend, backend, and full-stack development.`;
+  const paragraph = `I hold a Degree in B.Sc IT and I'm a passionate MERN stack and Full-stack developer with a strong focus on clean code, scalability, and user-friendly design, data-driven web applications. I've actively completed 20+ projects that span frontend, backend, and full-stack development.`;
   const words = paragraph.split(" ");
 
   return (
