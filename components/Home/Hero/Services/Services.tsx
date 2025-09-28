@@ -55,7 +55,7 @@ const Services = () => {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
             className="p-5 border border-gray-400 rounded-md hover:border-[#8B5CF6]"
           >
@@ -75,7 +75,7 @@ const Services = () => {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
             className="p-5 border border-gray-400 rounded-md hover:border-[#7C3BEB]"
           >
@@ -95,7 +95,7 @@ const Services = () => {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.6 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
             className="p-5 border border-gray-400 rounded-md hover:border-[#7C3BEB]"
           >
