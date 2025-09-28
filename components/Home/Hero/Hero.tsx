@@ -138,30 +138,35 @@ const Hero = () => {
           className="hidden md:flex justify-center md:justify-end"
         >
           <div className="relative flex items-center justify-center">
-            <div className="absolute inset-0 rounded-full " />
-            <div className="relative flex items-center justify-center">
-              {/* Backdrop circle with animation */}
-              <motion.div
-                className="absolute inset-0 rounded-full "
-                whileHover={{ scale: 1.1, rotate: 5 }}
-                transition={{ type: "spring", stiffness: 200, damping: 10 }}
-              />
+            {/* 🔹 Gradient glow behind */}
+            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-500/10 via-blue-500/10 to-blue-500/10 blur-3xl" />
 
-              {/* Image with animation */}
-              <motion.div
-                whileHover={{ scale: 1.05, rotate: -3 }}
-                transition={{ type: "spring", stiffness: 200, damping: 12 }}
-                className="relative z-10"
-              >
-                <Image
-                  src="/images/pic6.jpg"
-                  alt="heroImage"
-                  width={450}
-                  height={450}
-                  loading="lazy"
-                  className="rounded-full border-t-10 border-b-10 border-l-2 border-r-2 border-blue-900/10 shadow-lg hidden md:block"
-                />
-              </motion.div>
+            {/* 🔹 Rotating dashed circular border with gaps (SVG) */}
+            <svg
+              className="absolute w-[485px] h-[485px] animate-spin-slow "
+              viewBox="0 0 100 100"
+            >
+              <circle
+                cx="50"
+                cy="50"
+                r="48"
+                fill="none"
+                stroke="#8B5CF6"
+                strokeWidth="2"
+                strokeDasharray="10 10" // 10px dash, 10px gap
+                strokeLinecap="round"
+              />
+            </svg>
+
+            <div className="relative flex items-center justify-center">
+              <Image
+                src="/images/pic12.png"
+                alt="heroImage"
+                width={450}
+                height={450}
+                loading="lazy"
+                className="rounded-full hidden md:block shadow-down relative z-10"
+              />
             </div>
           </div>
         </motion.div>

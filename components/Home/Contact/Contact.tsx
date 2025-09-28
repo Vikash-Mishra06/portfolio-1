@@ -202,14 +202,35 @@ const Contact = () => {
 
                 <h1 className="text-md  text-[#8B5CF6]">AVAILABLE FOR WORK</h1>
               </div>
-              <Image
-                src="/images/pic6.jpg"
-                width={100}
-                height={100}
-                alt=""
-                loading="lazy"
-                className="rounded-full border-4 border-gray-950/80"
-              />
+              <div className="relative flex items-center justify-center w-[110px] h-[110px]">
+                {/* 🔹 Rotating dashed circular border */}
+                <svg
+                  className="absolute w-[110px] h-[110px] animate-spin-slow"
+                  viewBox="0 0 100 100"
+                >
+                  <circle
+                    cx="50"
+                    cy="50"
+                    r="48"
+                    fill="none"
+                    stroke="#8B5CF6"
+                    strokeWidth="2"
+                    strokeDasharray="10 10" // 10px dash, 10px gap
+                    strokeLinecap="round"
+                  />
+                </svg>
+
+                {/* 🔹 Profile Image */}
+                <Image
+                  src="/images/pic12.png"
+                  width={100}
+                  height={100}
+                  alt="profile"
+                  loading="lazy"
+                  className="rounded-full"
+                />
+              </div>
+
               <p className="text-md text-gray-300">
                 I look forward to the opportunity to collaborate with you.
                 Please fill out the contact form, and I will be in touch with
