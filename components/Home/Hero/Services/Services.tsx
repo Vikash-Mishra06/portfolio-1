@@ -26,7 +26,7 @@ const Services = () => {
       </motion.h1>
 
       {/* 🌟 Responsive container */}
-      <div className="w-full px-5 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-center">
+      <div className="w-full px-5 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-center">
         {/* Frontend */}
         <SpotlightCard
           className="custom-spotlight-card"

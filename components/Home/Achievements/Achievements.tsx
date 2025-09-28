@@ -28,7 +28,7 @@ const Achievements = () => {
         </span>{" "}
       </motion.h1>
 
-      <div className="w-full px-5 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+      <div className="w-full px-5 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
         {/* Card 1 */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -37,7 +37,7 @@ const Achievements = () => {
           viewport={{ once: true }}
         >
           <div
-            className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] cursor-pointer"
+            className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e] cursor-pointer"
             onClick={() => setSelectedImage("/images/certi8.png")}
           >
             <Image
@@ -45,7 +45,7 @@ const Achievements = () => {
               alt="Project 1 Img"
               width={550}
               height={500}
-              className="rounded-lg hover:scale-103 transition-all duration-400 object-cover aspect-[16/11]"
+              className="rounded-lg hover:scale-103 transition-all duration-400 object-cover w-full aspect-[16/11]"
             />
           </div>
           <div className="flex items-center justify-between">
@@ -68,7 +68,7 @@ const Achievements = () => {
           viewport={{ once: true }}
         >
           <div
-            className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] cursor-pointer"
+            className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e] cursor-pointer"
             onClick={() => setSelectedImage("/images/certi7.png")}
           >
             <Image
@@ -76,7 +76,7 @@ const Achievements = () => {
               alt="Project 2 Img"
               width={550}
               height={500}
-              className="rounded-lg hover:scale-103 transition-all duration-400 object-cover"
+              className="rounded-lg hover:scale-103 transition-all duration-400 object-cover w-full"
             />
           </div>
           <div className="flex items-center justify-between">
@@ -99,7 +99,7 @@ const Achievements = () => {
           viewport={{ once: true }}
         >
           <div
-            className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] cursor-pointer"
+            className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e] cursor-pointer"
             onClick={() => setSelectedImage("/images/certi1.png")}
           >
             <Image
@@ -107,7 +107,7 @@ const Achievements = () => {
               alt="Project 3 Img"
               width={550}
               height={500}
-              className="rounded-lg hover:scale-103 transition-all duration-400 object-cover"
+              className="rounded-lg hover:scale-103 transition-all duration-400 object-cover w-full"
             />
           </div>
           <div className="flex items-center justify-between">
@@ -130,7 +130,7 @@ const Achievements = () => {
           viewport={{ once: true }}
         >
           <div
-            className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] cursor-pointer"
+            className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e] cursor-pointer"
             onClick={() => setSelectedImage("/images/certi2.png")}
           >
             <Image
@@ -138,7 +138,7 @@ const Achievements = () => {
               alt="Project 4 Img"
               width={550}
               height={500}
-              className="rounded-lg hover:scale-103 transition-all duration-400 object-cover"
+              className="rounded-lg hover:scale-103 transition-all duration-400 object-cover w-full"
             />
           </div>
           <div className="flex items-center justify-between">
@@ -157,7 +157,7 @@ const Achievements = () => {
       <div className="w-full px-5 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0 mt-10">
         <Link
           href="https://www.linkedin.com/in/vikash-mishra1206/"
-          className="text-gray-400 flex items-center justify-center py-2 text-sm sm:text-md md:text-lg lg:text-xl border border-gray-400/40 hover:bg-[#1E1E1E]/40 rounded-2xl"
+          className="text-gray-400 flex items-center justify-center py-2 text-sm sm:text-md md:text-lg lg:text-xl border border-gray-400/40 hover:bg-[#1E1E1E]/40 active:bg-[#1E1E1E]/40 rounded-2xl"
         >
           More Certificates on Linkedin <FaLinkedin className="ml-2 text-2xl" />
         </Link>

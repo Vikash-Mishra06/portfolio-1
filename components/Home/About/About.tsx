@@ -103,7 +103,7 @@ const About = () => {
 
   return (
     <section id="about" className=" pt-16 pb-16 bg-black">
-      <div className="w-full px-5 pt-10 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0">
+      <div className="w-full px-5 pt-10 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0">
       <motion.div
       initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -167,11 +167,11 @@ const About = () => {
           <div className="flex gap-5 pt-5">
             <Link
               href="#contact"
-              className="px-4 py-2 bg-[#7C3BEB] hover:bg-[#8B5CF6] text-sm sm:text-md font-medium rounded-md lg:rounded-lg cursor-pointer"
+              className="px-4 py-2 bg-[#7C3BEB] hover:bg-[#8B5CF6] active:bg-[#8B5CF6] text-sm sm:text-md font-medium rounded-md lg:rounded-lg cursor-pointer"
             >
               Get in Touch
             </Link>
-            <button onClick={() => window.open("/Vikash Mishra-Resume.pdf", "_blank")} className="flex items-center gap-2 text-gray-400 hover:text-gray-100 text-sm sm:text-base font-medium transition-colors">
+            <button onClick={() => window.open("/Vikash Mishra-Resume.pdf", "_blank")} className="flex items-center gap-2 text-gray-400 hover:text-gray-100 active:text-gray-100 text-sm sm:text-base font-medium transition-colors">
               <i className="ri-file-text-line"></i>
               <span>RESUME</span>
             </button>

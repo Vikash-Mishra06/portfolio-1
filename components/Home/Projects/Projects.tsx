@@ -22,7 +22,7 @@ const Projects = () => {
         </span>
       </motion.h1>
 
-      <div className="w-full px-5 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+      <div className="w-full px-5 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -30,7 +30,7 @@ const Projects = () => {
           viewport={{ once: true }}
         >
           <Link href='https://agency-ai-teal.vercel.app/'>
-          <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
+          <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e]">
             <Image
               src="/images/image.png"
               alt="Project 1 Img"
@@ -55,7 +55,7 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] border p-2 rounded-lg"
+                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] active:bg-[#1E1E1E] border p-2 rounded-lg"
                 >
                   <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
                 </svg>
@@ -65,7 +65,7 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] border p-2 rounded-lg"
+                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] active:bg-[#1E1E1E] border p-2 rounded-lg"
                 >
                   <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
                 </svg>
@@ -81,7 +81,7 @@ const Projects = () => {
           viewport={{ once: true }}
         >
           <Link href='https://nexovate-agency.vercel.app/'>
-          <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
+          <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e]">
             <Image
               src="/images/image2.png"
               alt="Project 2 Img"
@@ -106,7 +106,7 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] border p-2 rounded-lg"
+                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] active:bg-[#1E1E1E] border p-2 rounded-lg"
                 >
                   <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
                 </svg>
@@ -116,7 +116,7 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] border p-2 rounded-lg"
+                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] active:bg-[#1E1E1E] border p-2 rounded-lg"
                 >
                   <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
                 </svg>
@@ -132,7 +132,7 @@ const Projects = () => {
           viewport={{ once: true }}
         >
           <Link href='https://menscoin-redesign.vercel.app/'>
-          <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
+          <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e]">
             <Image
               src="/images/image3.png"
               alt="Project 3 Img"
@@ -157,7 +157,7 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] border p-2 rounded-lg"
+                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] active:bg-[#1E1E1E] border p-2 rounded-lg"
                 >
                   <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
                 </svg>
@@ -167,7 +167,7 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] border p-2 rounded-lg"
+                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] active:bg-[#1E1E1E] border p-2 rounded-lg"
                 >
                   <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
                 </svg>
@@ -183,7 +183,7 @@ const Projects = () => {
           viewport={{ once: true }}
         >
           <Link href='https://k72-ca-project.vercel.app/'>
-          <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
+          <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e]">
             <Image
               src="/images/image4.png"
               alt="Project 4 Img"
@@ -208,7 +208,7 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] border p-2 rounded-lg"
+                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] active:bg-[#1E1E1E] border p-2 rounded-lg"
                 >
                   <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
                 </svg>
@@ -218,7 +218,7 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] border p-2 rounded-lg"
+                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] active:bg-[#1E1E1E] border p-2 rounded-lg"
                 >
                   <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
                 </svg>
@@ -234,7 +234,7 @@ const Projects = () => {
           viewport={{ once: true }}
         >
           <Link href='https://flybytravelbooking.netlify.app/'>
-          <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
+          <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e]">
             <Image
               src="/images/image5.png"
               alt="Project 5 Img"
@@ -259,7 +259,7 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] border p-2 rounded-lg"
+                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] active:bg-[#1E1E1E] border p-2 rounded-lg"
                 >
                   <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
                 </svg>
@@ -269,7 +269,7 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] border p-2 rounded-lg"
+                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] active:bg-[#1E1E1E] border p-2 rounded-lg"
                 >
                   <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
                 </svg>
@@ -285,7 +285,7 @@ const Projects = () => {
           viewport={{ once: true }}
         >
           <Link href='https://bike-essentials.netlify.app/'>
-          <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F]">
+          <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e]">
             <Image
               src="/images/image6.png"
               alt="Project 6 Img"
@@ -310,7 +310,7 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] border p-2 rounded-lg"
+                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] active:bg-[#1E1E1E] border p-2 rounded-lg"
                 >
                   <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
                 </svg>
@@ -320,7 +320,7 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] border p-2 rounded-lg"
+                  className="size-8 md:size-9 lg:size-10 xl:size-11 text-gray-400 border-gray-400/40 hover:bg-[#1E1E1E] active:bg-[#1E1E1E] border p-2 rounded-lg"
                 >
                   <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
                 </svg>
@@ -332,7 +332,7 @@ const Projects = () => {
       <div className="w-full px-5 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0 mt-10">
         <Link
           href="https://github.com/Vikash-Mishra06"
-          className="text-gray-400 flex items-center justify-center py-2 text-sm sm:text-md md:text-lg lg:text-xl border border-gray-400/40 hover:bg-[#1E1E1E]/40 rounded-2xl"
+          className="text-gray-400 flex items-center justify-center py-2 text-sm sm:text-md md:text-lg lg:text-xl border border-gray-400/40 hover:bg-[#1E1E1E]/40 active:bg-[#1E1E1E]/40 rounded-2xl"
         >
           More Projects on Github <FaGithub className="ml-2 text-2xl" />
         </Link>

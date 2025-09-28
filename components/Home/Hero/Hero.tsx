@@ -13,7 +13,7 @@ const Hero = () => {
       className="relative h-screen flex items-center justify-center text-white"
     >
       {/* Main container with responsive width */}
-      <div className="w-full px-5 md:pt-5 lg:pt-10 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 items-center max-w-[77rem]">
+      <div className="w-full px-5 md:pt-5 lg:pt-10 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 items-center max-w-[77rem]">
         {/* LEFT SIDE - Text Content */}
         <div className="md:text-left gap-10">
           <motion.h1
@@ -26,11 +26,17 @@ const Hero = () => {
             <span className="text-gray-400 font-light text-left">Hi!👋</span>
             <br />
             I&apos;m{" "}
-            <span className="inline-block text-[#8B5CF6] mt-2">Vikash</span>{" "}
-            Mishra,<br />
+            <span className="inline-block text-[#8B5CF6] mt-2">
+              Vikash
+            </span>{" "}
+            Mishra,
+            <br />
             <p className="mt-5 text-sm sm:text-md lg:text-lg font-medium text-gray-400 tracking-wide text-left">
               A Passionate
-              <span className="text-gray-200"> MERN Developer, Full Stack Developer.</span>
+              <span className="text-gray-200">
+                {" "}
+                MERN Developer, Full Stack Developer.
+              </span>
               <br />
               Building<span className="text-gray-200"> Data-Driven</span> web
               apps.
@@ -73,12 +79,17 @@ const Hero = () => {
           >
             <Link
               href="#contact"
-              className="px-4 py-2 bg-[#7C3BEB] hover:bg-[#8B5CF6] text-sm sm:text-md font-medium rounded-md lg:rounded-lg cursor-pointer"
+              className="px-4 py-2 bg-[#7C3BEB] hover:bg-[#8B5CF6] active:bg-[#8B5CF6] text-sm sm:text-md font-medium rounded-md lg:rounded-lg cursor-pointer"
             >
               Get in Touch
             </Link>
             <div className="flex">
-              <button onClick={() => window.open("/Vikash Mishra-Resume.pdf", "_blank")} className="flex items-center gap-2 text-gray-400 hover:text-gray-100 text-md font-medium rounded-xl cursor-pointer tracking-wide">
+              <button
+                onClick={() =>
+                  window.open("/Vikash Mishra-Resume.pdf", "_blank")
+                }
+                className="flex items-center gap-2 text-gray-400 hover:text-gray-100 active:text-gray-100 text-md font-medium rounded-xl cursor-pointer tracking-wide"
+              >
                 <span>
                   <i className="ri-file-text-line"></i>
                 </span>
@@ -126,14 +137,33 @@ const Hero = () => {
           viewport={{ once: true }}
           className="hidden md:flex justify-center md:justify-end"
         >
-          <Image
-            src="/images/profile3.jpg"
-            alt="heroImage"
-            width={500}
-            height={450}
-            loading="lazy"
-            className="rounded-full border-t-10 border-b-10 border-l-2 border-r-2 bg-purple-900/5 border-blue-900/10 shadow-lg hidden md:block z-[999]"
-          />
+          <div className="relative flex items-center justify-center">
+            <div className="absolute inset-0 rounded-full " />
+            <div className="relative flex items-center justify-center">
+              {/* Backdrop circle with animation */}
+              <motion.div
+                className="absolute inset-0 rounded-full "
+                whileHover={{ scale: 1.1, rotate: 5 }}
+                transition={{ type: "spring", stiffness: 200, damping: 10 }}
+              />
+
+              {/* Image with animation */}
+              <motion.div
+                whileHover={{ scale: 1.05, rotate: -3 }}
+                transition={{ type: "spring", stiffness: 200, damping: 12 }}
+                className="relative z-10"
+              >
+                <Image
+                  src="/images/pic6.jpg"
+                  alt="heroImage"
+                  width={450}
+                  height={450}
+                  loading="lazy"
+                  className="rounded-full border-t-10 border-b-10 border-l-2 border-r-2 border-blue-900/10 shadow-lg hidden md:block"
+                />
+              </motion.div>
+            </div>
+          </div>
         </motion.div>
       </div>
     </div>

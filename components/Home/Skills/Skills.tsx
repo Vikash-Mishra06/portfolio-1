@@ -24,7 +24,7 @@ const cardVariants = {
 const Skills = () => {
   return (
     <div id="skills" className="pt-16 pb-16 bg-[#000000] overflow-x-hidden">
-      <div className="w-full px-5 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 xl:grid-cols-2 gap-20 lg:gap-10">
+      <div className="w-full px-5 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 xl:grid-cols-2 gap-20 lg:gap-10">
         {/* LEFT COLUMN - Tech Stack / Tools */}
         <div className="relative space-y-10">
           <motion.h1

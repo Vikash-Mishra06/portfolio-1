@@ -93,7 +93,7 @@ const Questions = () => {
       id="questions"
       className="pt-16 pb-16 bg-black "
     >
-      <div className="w-full px-5 md:w-[90%] lg:w-4/5 md:mx-auto md:px-0">
+      <div className="w-full px-5 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-12 ">
         {/* Left Section */}
         <div className="w-full lg:w-1/3 flex flex-col items-start justify-start gap-5">

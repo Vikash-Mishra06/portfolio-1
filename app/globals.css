@@ -167,3 +167,17 @@ body {
   mask-repeat: no-repeat;
   mask-size: cover;
 }
+
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px #8B5CF6, 0 0 15px #8B5CF6, 0 0 30px #8B5CF6;
+  }
+  50% {
+    box-shadow: 0 0 15px #8B5CF6, 0 0 30px #8B5CF6, 0 0 45px #8B5CF6;
+  }
+}
+
+.animate-glow {
+  animation: pulse-glow 2s infinite ease-in-out;
+}
