@@ -1,8 +1,9 @@
 // components/SocialLinks.tsx
-import { FC } from "react";
-import Link from "next/link";
+"use client";
+
+import React, { FC } from "react";
 import { FaLinkedin, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6"; 
+import { FaXTwitter } from "react-icons/fa6";
 
 const SocialLinks: FC = () => {
   const links = [
@@ -10,47 +11,66 @@ const SocialLinks: FC = () => {
       href: "https://www.linkedin.com/in/vikash-mishra1206/",
       icon: <FaLinkedin />,
       label: "LinkedIn",
-      hoverColor: "hover:text-[#0A66C2]", 
+      classes: "hover:text-[#0A66C2] active:text-[#0A66C2]",
+      color: "#0A66C2",
     },
     {
       href: "https://github.com/Vikash-Mishra06",
       icon: <FaGithub />,
       label: "GitHub",
-      hoverColor: "hover:text-gray-200", 
+      classes: "hover:text-gray-200 active:text-gray-200",
+      color: "#D1D5DB",
     },
     {
       href: "https://www.instagram.com/vikas060_/",
       icon: <FaInstagram />,
       label: "Instagram",
-      hoverColor: "hover:text-[#E1306C]",
+      classes: "hover:text-[#E1306C] active:text-[#E1306C]",
+      color: "#E1306C",
     },
     {
       href: "https://x.com/Vikasm_06?t=Cm2CbMC8oz_Ee60WCHYuww&s=09",
       icon: <FaXTwitter />,
       label: "Twitter / X",
-      hoverColor: "hover:text-white",
+      classes: "hover:text-white active:text-white",
+      color: "#FFFFFF",
     },
     {
       href: "https://wa.me/9637078026",
       icon: <FaWhatsapp />,
       label: "Whatsapp",
-      hoverColor: "hover:text-[#25D366]",
+      classes: "hover:text-[#25D366] active:text-[#25D366]",
+      color: "#25D366",
     },
   ];
 
+  const clearInlineColor = (el: HTMLElement) => {
+    el.style.color = "";
+  };
+
   return (
-    <div className="flex space-x-6 text-2xl text-gray-500">
-      {links.map(({ href, icon, label, hoverColor }) => (
-        <Link
+    <div className="flex space-x-6 text-2xl">
+      {links.map(({ href, icon, label, classes, color }) => (
+        <a
           key={label}
           href={href}
           target="_blank"
           rel="noopener noreferrer"
           aria-label={label}
-          className={`transition-colors duration-300 ${hoverColor}`}
+          className={`transition-colors duration-200 text-gray-500 ${classes} cursor-pointer`}
+          onTouchStart={(e) => {
+            (e.currentTarget as HTMLElement).style.color = color;
+          }}
+          onTouchEnd={(e) => {
+            const el = e.currentTarget as HTMLElement;
+            setTimeout(() => clearInlineColor(el), 150);
+          }}
+          onTouchCancel={(e) => {
+            clearInlineColor(e.currentTarget as HTMLElement);
+          }}
         >
           {icon}
-        </Link>
+        </a>
       ))}
     </div>
   );
