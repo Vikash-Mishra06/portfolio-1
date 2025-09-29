@@ -222,7 +222,7 @@ const Contact = () => {
 
                 {/* 🔹 Profile Image */}
                 <Image
-                  src="/images/pic12.png"
+                  src="/images/pic6.jpg"
                   width={100}
                   height={100}
                   alt="profile"
