@@ -160,7 +160,7 @@ const Hero = () => {
 
             <div className="relative flex items-center justify-center">
               <Image
-                src="/images/pic12.png"
+                src="/images/pic6.jpg"
                 alt="heroImage"
                 width={450}
                 height={450}
