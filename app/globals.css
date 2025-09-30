@@ -8,7 +8,6 @@ body {
 
 
 #hero {
-  min-height: 100vh;
   background: linear-gradient(to bottom,
       #000000 0%,
       #0a0a1a 25%,
@@ -37,7 +36,6 @@ body {
 }
 
 #skills {
-  min-height: 100vh;
   background: linear-gradient(to bottom,
       #000000 0%,
       #0a0a1a 25%,
