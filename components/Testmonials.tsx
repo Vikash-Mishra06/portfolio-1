@@ -7,7 +7,7 @@ const testimonials = [
     name: "Amrit Raj",
     role: "Senior Developer @Ignite Solutions",
     img: "/images/c1.png", // replace with actual profile
-    text: "Vikash is highly dependable and brings both creativity and structure to projects. He consistently delivers work on time without compromising on quality, which made a big difference to our team’s success.",
+    text: "Vikash is highly dependable and brings both creativity and structure to projects. He consistently delivers work on time without compromising on quality, which made a big difference to our team&apos;s success.",
   },
   {
     name: "Jane Doe",
@@ -19,19 +19,19 @@ const testimonials = [
     name: "Amrit Raj",
     role: "Senior Developer @Ignite Solutions",
     img: "/images/c3.png", // replace with actual profile
-    text: "I’ve had the chance to collaborate with Vikash, and I was impressed with his problem-solving skills. He approaches challenges thoughtfully and always finds practical, effective solutions.",
+    text: "I&apos;ve had the chance to collaborate with Vikash, and I was impressed with his problem-solving skills. He approaches challenges thoughtfully and always finds practical, effective solutions.",
   },
   {
     name: "Jane Doe",
     role: "Product Designer @ABC",
     img: "/images/c4.png",
-    text: "Vikash is detail-oriented and committed to doing things right. His dedication shows in the quality of his work, and he’s someone you can always count on for reliable results.",
+    text: "Vikash is detail-oriented and committed to doing things right. His dedication shows in the quality of his work, and he&apos;s someone you can always count on for reliable results.",
   },
   {
     name: "Amrit Raj",
     role: "Senior Developer @Ignite Solutions",
     img: "/images/c5.png", // replace with actual profile
-    text: "Working with Vikash has been a positive experience. He’s proactive, easy to collaborate with, and genuinely cares about producing meaningful outcomes for the team.",
+    text: "Working with Vikash has been a positive experience. He&apos;s proactive, easy to collaborate with, and genuinely cares about producing meaningful outcomes for the team.",
   },
 ];
 
