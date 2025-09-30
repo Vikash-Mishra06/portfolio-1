@@ -1,3 +1,4 @@
+'use client'
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -5,16 +6,33 @@ const testimonials = [
   {
     name: "Amrit Raj",
     role: "Senior Developer @Ignite Solutions",
-    img: "https://via.placeholder.com/80", // replace with actual profile
+    img: "/images/c1/png", // replace with actual profile
+    text: "Vikash is highly dependable and brings both creativity and structure to projects. He consistently delivers work on time without compromising on quality, which made a big difference to our team’s success."
+  },
+  {
+    name: "Jane Doe",
+    role: "Product Designer @ABC",
+    img: "/images/c2/png",
+    text: "What sets Vikash apart is his ability to blend technical expertise with strong communication. He explains complex ideas in a way that everyone can understand, making teamwork smooth and efficient."
+  },
+  {
+    name: "Amrit Raj",
+    role: "Senior Developer @Ignite Solutions",
+    img: "/images/c3/png", // replace with actual profile
     text: "I’ve had the chance to collaborate with Vikash, and I was impressed with his problem-solving skills. He approaches challenges thoughtfully and always finds practical, effective solutions."
   },
   {
     name: "Jane Doe",
     role: "Product Designer @ABC",
-    img: "https://via.placeholder.com/80",
-    text: "Working with Vikash was an absolute pleasure. His problem-solving mindset and ability to break down complex challenges into simple, actionable solutions really helped our team move forward faster."
-  }
-  // add more
+    img: "/images/c4/png",
+    text: "Vikash is detail-oriented and committed to doing things right. His dedication shows in the quality of his work, and he’s someone you can always count on for reliable results."
+  },
+  {
+    name: "Amrit Raj",
+    role: "Senior Developer @Ignite Solutions",
+    img: "/images/c5/png", // replace with actual profile
+    text: "Working with Vikash has been a positive experience. He’s proactive, easy to collaborate with, and genuinely cares about producing meaningful outcomes for the team."
+  },
 ];
 
 export default function Testimonials() {
@@ -32,9 +50,9 @@ export default function Testimonials() {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-black text-white p-12 min-h-[400px]">
-      
+      <div></div>
       {/* Left Section */}
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center ">
         <p className="text-green-400 font-semibold">TESTIMONIALS</p>
         <h2 className="text-4xl font-bold mt-2">What others say</h2>
         <p className="text-gray-400 mt-4">
