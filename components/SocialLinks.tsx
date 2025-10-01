@@ -29,13 +29,6 @@ const SocialLinks: FC = () => {
       color: "#E1306C",
     },
     {
-      href: "https://x.com/Vikasm_06?t=Cm2CbMC8oz_Ee60WCHYuww&s=09",
-      icon: <FaXTwitter />,
-      label: "Twitter / X",
-      classes: "hover:text-white active:text-white",
-      color: "#FFFFFF",
-    },
-    {
       href: "https://wa.me/9637078026",
       icon: <FaWhatsapp />,
       label: "Whatsapp",
