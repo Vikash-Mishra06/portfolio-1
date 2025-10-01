@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="relative h-screen flex items-center justify-center text-white"
+      className="relative min-h-[100dvh] flex items-center justify-center text-white"
     >
       {/* Main container with responsive width */}
       <div className="w-full px-5 md:pt-5 lg:pt-10 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 items-center max-w-[77rem]">
