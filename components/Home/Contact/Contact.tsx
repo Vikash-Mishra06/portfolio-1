@@ -205,7 +205,7 @@ const Contact = () => {
               <div className="relative flex items-center justify-center w-[110px] h-[110px]">
                 {/* 🔹 Rotating dashed circular border */}
                 <svg
-                  className="absolute w-[110px] h-[110px] animate-spin-slow"
+                  className="absolute w-[90px] h-[90px] animate-spin-slow"
                   viewBox="0 0 100 100"
                 >
                   <circle
@@ -222,9 +222,9 @@ const Contact = () => {
 
                 {/* 🔹 Profile Image */}
                 <Image
-                  src="/images/pic6.jpg"
-                  width={100}
-                  height={100}
+                  src="https://ik.imagekit.io/vikash06/Portfolio/pic1.jpg?updatedAt=1759327190557"
+                  width={80}
+                  height={80}
                   alt="profile"
                   loading="lazy"
                   className="rounded-full"

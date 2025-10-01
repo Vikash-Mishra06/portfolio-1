@@ -41,7 +41,7 @@ const Achievements = () => {
             onClick={() => setSelectedImage("/images/certi8.png")}
           >
             <Image
-              src="/images/certi8.png"
+              src="https://ik.imagekit.io/vikash06/Portfolio/certi8.png?updatedAt=1759327275686"
               alt="Project 1 Img"
               width={550}
               height={500}
@@ -72,7 +72,7 @@ const Achievements = () => {
             onClick={() => setSelectedImage("/images/certi7.png")}
           >
             <Image
-              src="/images/certi7.png"
+              src="https://ik.imagekit.io/vikash06/Portfolio/certi7.png?updatedAt=1759327271396"
               alt="Project 2 Img"
               width={550}
               height={500}
@@ -103,7 +103,7 @@ const Achievements = () => {
             onClick={() => setSelectedImage("/images/certi1.png")}
           >
             <Image
-              src="/images/certi1.png"
+              src="https://ik.imagekit.io/vikash06/Portfolio/certi1.png?updatedAt=1759327271375"
               alt="Project 3 Img"
               width={550}
               height={500}
@@ -134,7 +134,7 @@ const Achievements = () => {
             onClick={() => setSelectedImage("/images/certi2.png")}
           >
             <Image
-              src="/images/certi2.png"
+              src="https://ik.imagekit.io/vikash06/Portfolio/certi2.png?updatedAt=1759327271877"
               alt="Project 4 Img"
               width={550}
               height={500}

@@ -161,7 +161,7 @@ const Hero = () => {
             {/* 🔹 Profile Image */}
             <div className="relative flex items-center justify-center">
               <Image
-                src="/images/pic6.jpg"
+                src="https://ik.imagekit.io/vikash06/Portfolio/pic1.jpg?updatedAt=1759327190557"
                 alt="heroImage"
                 width={450}
                 height={450}

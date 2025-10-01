@@ -32,7 +32,7 @@ const Projects = () => {
           <Link href='https://agency-ai-teal.vercel.app/'>
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e]">
             <Image
-              src="/images/image.png"
+              src="https://ik.imagekit.io/vikash06/Portfolio/image.png?updatedAt=1759327277222"
               alt="Project 1 Img"
               width={800}
               height={650}
@@ -83,7 +83,7 @@ const Projects = () => {
           <Link href='https://nexovate-agency.vercel.app/'>
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e]">
             <Image
-              src="/images/image2.png"
+              src="https://ik.imagekit.io/vikash06/Portfolio/image2.png?updatedAt=1759327277547"
               alt="Project 2 Img"
               width={800}
               height={650}
@@ -134,7 +134,7 @@ const Projects = () => {
           <Link href='https://menscoin-redesign.vercel.app/'>
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e]">
             <Image
-              src="/images/image3.png"
+              src="https://ik.imagekit.io/vikash06/Portfolio/image3.png?updatedAt=1759327277270"
               alt="Project 3 Img"
               width={800}
               height={650}
@@ -185,7 +185,7 @@ const Projects = () => {
           <Link href='https://k72-ca-project.vercel.app/'>
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e]">
             <Image
-              src="/images/image4.png"
+              src="https://ik.imagekit.io/vikash06/Portfolio/image4.png?updatedAt=1759327277276"
               alt="Project 4 Img"
               width={800}
               height={650}
@@ -236,7 +236,7 @@ const Projects = () => {
           <Link href='https://flybytravelbooking.netlify.app/'>
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e]">
             <Image
-              src="/images/image5.png"
+              src="https://ik.imagekit.io/vikash06/Portfolio/image5.png?updatedAt=1759327277568"
               alt="Project 5 Img"
               width={800}
               height={650}
@@ -287,7 +287,7 @@ const Projects = () => {
           <Link href='https://bike-essentials.netlify.app/'>
           <div className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e]">
             <Image
-              src="/images/image6.png"
+              src="https://ik.imagekit.io/vikash06/Portfolio/image6.png?updatedAt=1759327274715"
               alt="Project 6 Img"
               width={800}
               height={650}
