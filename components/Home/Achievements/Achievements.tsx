@@ -38,7 +38,7 @@ const Achievements = () => {
         >
           <div
             className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e] cursor-pointer"
-            onClick={() => setSelectedImage("/images/certi8.png")}
+            onClick={() => setSelectedImage("https://ik.imagekit.io/vikash06/Portfolio/certi8.png?updatedAt=1759327275686")}
           >
             <Image
               src="https://ik.imagekit.io/vikash06/Portfolio/certi8.png?updatedAt=1759327275686"
@@ -69,7 +69,7 @@ const Achievements = () => {
         >
           <div
             className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e] cursor-pointer"
-            onClick={() => setSelectedImage("/images/certi7.png")}
+            onClick={() => setSelectedImage("https://ik.imagekit.io/vikash06/Portfolio/certi7.png?updatedAt=1759327271396")}
           >
             <Image
               src="https://ik.imagekit.io/vikash06/Portfolio/certi7.png?updatedAt=1759327271396"
@@ -100,7 +100,7 @@ const Achievements = () => {
         >
           <div
             className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e] cursor-pointer"
-            onClick={() => setSelectedImage("/images/certi1.png")}
+            onClick={() => setSelectedImage("https://ik.imagekit.io/vikash06/Portfolio/certi1.png?updatedAt=1759327271375")}
           >
             <Image
               src="https://ik.imagekit.io/vikash06/Portfolio/certi1.png?updatedAt=1759327271375"
@@ -131,7 +131,7 @@ const Achievements = () => {
         >
           <div
             className="p-4 lg:p-8 rounded-lg bg-[#1F1F1F] active:bg-[#2e2e2e] cursor-pointer"
-            onClick={() => setSelectedImage("/images/certi2.png")}
+            onClick={() => setSelectedImage("https://ik.imagekit.io/vikash06/Portfolio/certi2.png?updatedAt=1759327271877")}
           >
             <Image
               src="https://ik.imagekit.io/vikash06/Portfolio/certi2.png?updatedAt=1759327271877"
