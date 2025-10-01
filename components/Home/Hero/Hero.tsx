@@ -141,9 +141,9 @@ const Hero = () => {
             {/* 🔹 Gradient glow behind */}
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-500/10 via-blue-500/10 to-blue-500/10 blur-3xl" />
 
-            {/* 🔹 Rotating dashed circular border with gaps (SVG) */}
+            {/* 🔹 Rotating dashed circular border */}
             <svg
-              className="absolute w-[485px] h-[485px] animate-spin-slow "
+              className="absolute w-[280px] h-[280px] sm:w-[340px] sm:h-[340px] md:w-[390px] md:h-[390px] lg:w-[460px] lg:h-[460px] animate-spin-slow"
               viewBox="0 0 100 100"
             >
               <circle
@@ -153,11 +153,12 @@ const Hero = () => {
                 fill="none"
                 stroke="#8B5CF6"
                 strokeWidth="2"
-                strokeDasharray="10 10" // 10px dash, 10px gap
+                strokeDasharray="10 10"
                 strokeLinecap="round"
               />
             </svg>
 
+            {/* 🔹 Profile Image */}
             <div className="relative flex items-center justify-center">
               <Image
                 src="/images/pic6.jpg"
@@ -165,7 +166,8 @@ const Hero = () => {
                 width={450}
                 height={450}
                 loading="lazy"
-                className="rounded-full hidden md:block shadow-down relative z-10"
+                className="rounded-full shadow-down relative z-10 
+          w-[240px] h-[240px] sm:w-[300px] sm:h-[300px] md:w-[360px] md:h-[360px] lg:w-[420px] lg:h-[420px] object-cover"
               />
             </div>
           </div>

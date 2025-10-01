@@ -193,7 +193,7 @@ const Contact = () => {
             viewport={{ once: true }}
             className="w-full lg:w-[50%] pt-20"
           >
-            <div className="bg-[#111116]/80 flex flex-col gap-5 p-10 rounded-2xl">
+            <div className="bg-[#111116]/80 flex flex-col gap-5 p-5 lg:p-10 rounded-2xl">
               <div className="flex items-center justify-start gap-2 shiny-text">
                 <span className="relative flex h-4 w-4 items-center justify-center">
                   <span className="absolute inline-flex h-full w-full rounded-full bg-[#8B5CF6] opacity-75 animate-ping"></span>
