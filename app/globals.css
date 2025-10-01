@@ -5,7 +5,11 @@ body {
   height: 100%;
 }
 
-
+#hero {
+  height: 100dvh; /* modern fix */
+  height: 100vh;  /* fallback */
+  min-height: -webkit-fill-available; /* for Safari iOS */
+}
 
 #hero {
   background: linear-gradient(to bottom,

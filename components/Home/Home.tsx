@@ -10,7 +10,6 @@ import Footer from './Footer/Footer'
 import TechStackAnimation from '../TechStackAnimation'
 import Questions from './Questions/Questions'
 import Achievements from './Achievements/Achievements'
-import Testimonials from '../Testmonials'
 
 const Home = () => {
   return (
@@ -24,7 +23,6 @@ const Home = () => {
       <Achievements />
       <Questions />
       <Contact />
-      <Testimonials />
       <Footer />
     </div>
   )

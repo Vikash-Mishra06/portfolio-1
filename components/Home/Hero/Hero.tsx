@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="relative min-h-[100dvh] flex items-center justify-center text-white"
+      className="relative h-screen min-h-[100dvh] flex items-center justify-center text-white"
     >
       {/* Main container with responsive width */}
       <div className="w-full px-5 md:pt-5 lg:pt-10 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 items-center max-w-[77rem]">
@@ -152,7 +152,7 @@ const Hero = () => {
                 r="48"
                 fill="none"
                 stroke="#8B5CF6"
-                strokeWidth="2"
+                strokeWidth="1"
                 strokeDasharray="10 10"
                 strokeLinecap="round"
               />
