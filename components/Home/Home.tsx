@@ -10,6 +10,7 @@ import Footer from './Footer/Footer'
 import TechStackAnimation from '../TechStackAnimation'
 import Questions from './Questions/Questions'
 import Achievements from './Achievements/Achievements'
+import ScrollToTop from '../Helper/ScrollToTop'
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <Questions />
       <Contact />
       <Footer />
+      <ScrollToTop /> 
     </div>
   )
 }
