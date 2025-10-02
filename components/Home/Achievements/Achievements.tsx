@@ -51,10 +51,10 @@ const Achievements = () => {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="mt-4 text-lg sm:text-2xl font-semibold text-gray-300">
-                JOB-READY COHORT
+                Job Ready AI-Powered Cohort: Web + DSA + Aptitude
               </h1>
               <h3 className="mt-2 text-sm sm:text-md text-gray-400">
-                Job Ready AI-Powered Cohort: Web + DSA + Aptitude
+                JavaScript, React, Node.js, Express, MongoDB, Data Structures & Algorithms, Aptitude
               </h3>
             </div>
           </div>
@@ -82,10 +82,10 @@ const Achievements = () => {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="mt-4 text-lg sm:text-2xl font-semibold text-gray-300">
-                JOB-READY HACKATHON
+                Frontend-Focused Hackathon
               </h1>
               <h3 className="mt-2 text-sm sm:text-md text-gray-400">
-                Frontend-Focused Hackathon
+                React, TailwindCSS, Framer Motion, Gsap, Vercel
               </h3>
             </div>
           </div>
@@ -113,10 +113,10 @@ const Achievements = () => {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="mt-4 text-lg sm:text-2xl font-semibold text-gray-300">
-                FRONTEND DEVELOPMENT
+                Frontend Development Course by OneRoadmap
               </h1>
               <h3 className="mt-2 text-sm sm:text-md text-gray-400">
-                Frontend Course by OneRoadmap
+                HTML, CSS,Tailwind, JavaScript, React.js
               </h3>
             </div>
           </div>
@@ -144,10 +144,10 @@ const Achievements = () => {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="mt-4 text-lg sm:text-2xl font-semibold text-gray-300">
-                FULL-STACK DEVELOPER
+                Full-Stack Developer Course by OneRoadmap
               </h1>
               <h3 className="mt-2 text-sm sm:text-md text-gray-400">
-                Full-Stack Course by OneRoadmap
+                MERN (MongoDB, Express, React, Node.js)
               </h3>
             </div>
           </div>

@@ -40,7 +40,7 @@ const Nav = ({ openNav }: Props) => {
           {/* logo */}
         </div>
         <div className="hidden lg:flex items-center justify-center w-full">
-        <ul className="flex space-x-5 lg:text-sm text-gray-300 font-medium">
+        <ul className="flex space-x-5 lg:text-sm text-gray-200 font-medium">
           <li><a className="hover:text-[#8B5CF6]" href="#hero">Home</a></li>
           <li><a className="hover:text-[#8B5CF6]" href="#services">Services</a></li>
           <li><a className="hover:text-[#8B5CF6]" href="#about">About</a></li>
