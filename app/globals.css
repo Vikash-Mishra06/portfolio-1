@@ -221,7 +221,7 @@ body {
   }
 }
 .animate-spin-slow {
-  animation: spin-slow 30s linear infinite;
+  animation: spin-slow 40s linear infinite;
 }
 
 
