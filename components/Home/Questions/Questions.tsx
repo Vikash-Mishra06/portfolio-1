@@ -46,7 +46,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
   return (
     <div
       className="border border-gray-800 rounded-xl p-4 cursor-pointer 
-                 transition-all duration-300 hover:border-[#8B5CF6] bg-gray-900/40"
+                 transition-all duration-300 hover:border-[#8B5CF6] bg-[#0F172A] z-10"
       onClick={onClick}
     >
       {/* Header */}
@@ -70,7 +70,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
         }`}
       >
         <div className="overflow-hidden">
-          <ul className=" list-disc text-gray-400 space-y-1 text-sm font-medium">
+          <ul className=" px-6 list-disc text-gray-300 space-y-1 text-sm">
             {answers.map((answers, index) => (
               <span key={index}>{answers}</span>
             ))}

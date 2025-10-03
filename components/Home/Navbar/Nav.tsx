@@ -20,7 +20,7 @@ const Nav = ({ openNav }: Props) => {
       initial={{ opacity: 0, y: -30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="h-[9vh] z-[1000] fixed w-full px-5 md:px-10 flex justify-between items-center gap-5 bg-black/70 backdrop-blur-md shadow-md"
+      className="h-[9vh] xl:h-[10vh] z-[1000] fixed w-full px-5 md:px-10 flex justify-between items-center gap-5 bg-black/70 backdrop-blur-md shadow-md"
     >
       <div className="flex items-center w-[90%] h-auto gap-6">
         <div>

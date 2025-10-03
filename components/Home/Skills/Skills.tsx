@@ -48,7 +48,7 @@ const Skills = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              className="bg-[#0F172A] p-5 rounded-2xl shadow-lg border border-gray-400 hover:border-blue-400"
+              className="bg-[#0F172A] z-10 p-5 rounded-2xl shadow-lg border border-gray-400 hover:border-blue-400"
             >
               <span className="text-gray-200 text-md font-semibold">
                 Frontend-

@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="relative h-screen min-h-[100dvh] flex items-center justify-center text-white"
+      className="relative h-screen min-h-[100dvh] flex items-center justify-center text-white z-10"
     >
       {/* Main container with responsive width */}
       <div className="w-full px-5 md:pt-5 lg:pt-10 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 items-center max-w-[77rem]">
@@ -79,7 +79,7 @@ const Hero = () => {
           >
             <Link
               href="#contact"
-              className="px-4 py-2 bg-[#7C3BEB] hover:bg-[#8B5CF6] active:bg-[#8B5CF6] text-sm sm:text-md font-medium rounded-md lg:rounded-lg cursor-pointer"
+              className="px-4 py-2 bg-[#7C3BEB] hover:bg-[#8B5CF6] z-1 active:bg-[#8B5CF6] text-sm sm:text-md font-medium rounded-md lg:rounded-lg cursor-pointer"
             >
               Get in Touch
             </Link>

@@ -56,7 +56,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, icon, items, isOpe
   return (
     <div
       className="border border-gray-800 rounded-xl p-4 cursor-pointer 
-                 transition-all duration-300 hover:border-[#8B5CF6] bg-gray-900/40"
+                 transition-all duration-300 hover:border-[#8B5CF6] bg-[#0F172A] z-10"
       onClick={onClick}
     >
       {/* Header */}
@@ -103,7 +103,7 @@ const About = () => {
 
   return (
     <section id="about" className=" pt-16 pb-16 bg-black">
-      <div className="w-full px-5 pt-10 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0">
+      <div className="w-full px-5 pt-10 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0 relative z-10">
       <motion.div
       initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -167,7 +167,7 @@ const About = () => {
           <div className="flex gap-5 pt-5">
             <Link
               href="#contact"
-              className="px-4 py-2 bg-[#7C3BEB] hover:bg-[#8B5CF6] active:bg-[#8B5CF6] text-sm sm:text-md font-medium rounded-md lg:rounded-lg cursor-pointer"
+              className="px-4 py-2 bg-[#7C3BEB] hover:bg-[#8B5CF6] active:bg-[#8B5CF6] z-1 text-sm sm:text-md font-medium rounded-md lg:rounded-lg cursor-pointer"
             >
               Get in Touch
             </Link>
@@ -184,7 +184,7 @@ const About = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
-        className="w-full lg:w-1/2  max-w-3xl mx-auto">
+        className="w-full lg:w-1/2  max-w-3xl mx-auto ">
           <motion.h2
           initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -196,7 +196,7 @@ const About = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
-          className="space-y-4">
+          className="space-y-4 z-10">
             {services.map((service, index) => (
               <AccordionItem
                 key={index}
