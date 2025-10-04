@@ -13,7 +13,7 @@ const Hero = () => {
       className="relative h-screen min-h-[100dvh] flex items-center justify-center text-white z-10"
     >
       {/* Main container with responsive width */}
-      <div className="w-full px-5 md:pt-5 lg:pt-10 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 items-center max-w-[77rem]">
+      <div className="w-full px-5 pt-10 lg:pt-15 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 items-center max-w-[77rem]">
         {/* LEFT SIDE - Text Content */}
         <div className="md:text-left gap-10">
           <motion.h1
@@ -135,41 +135,69 @@ const Hero = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
           viewport={{ once: true }}
-          className="hidden md:flex justify-center md:justify-end"
+          className="hidden md:flex justify-center md:justify-end mr-10"
         >
           <div className="relative flex items-center justify-center">
-            {/* 🔹 Gradient glow behind */}
+            {/* 🔹 Subtle glow behind */}
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-500/10 via-blue-500/10 to-blue-500/10 blur-3xl" />
 
-            {/* 🔹 Rotating dashed circular border */}
+            {/* 🔹 Circular text evenly spaced */}
             <svg
-              className="absolute w-[280px] h-[280px] sm:w-[340px] sm:h-[340px] md:w-[390px] md:h-[390px] lg:w-[460px] lg:h-[460px] animate-spin-slow"
-              viewBox="0 0 100 100"
+              className="absolute w-[320px] h-[320px] sm:w-[380px] sm:h-[380px] md:w-[370px] md:h-[370px] lg:w-[490px] lg:h-[490px] xl:w-[530px] xl:h-[530px] animate-spin-slower border rounded-full"
+              viewBox="0 0 300 300"
             >
-              <circle
-                cx="50"
-                cy="50"
-                r="48"
-                fill="none"
-                stroke="#8B5CF6"
-                strokeWidth="1"
-                strokeDasharray="10 10"
-                strokeLinecap="round"
-              />
+              <defs>
+                <path
+                  id="circle"
+                  d="M150,150 m-130,0 a130,130 0 1,1 260,0 a130,130 0 1,1 -260,0"
+                />
+              </defs>
+
+              <g className="text-gray-300">
+                {(() => {
+                  const text =
+                    "• FULL-STACK DEVELOPER • MERN STACK DEVELOPER • FRONTEND-BACKEND DEVELOPER ";
+                  const radius = 130;
+                  const center = 150;
+                  const chars = text.split("");
+                  const angleStep = 360 / chars.length;
+
+                  return chars.map((char, i) => {
+                    const angle = i * angleStep - 90; // start at top
+                    const x =
+                      center + radius * Math.cos((angle * Math.PI) / 180);
+                    const y =
+                      center + radius * Math.sin((angle * Math.PI) / 180);
+                    return (
+                      <text
+                        key={i}
+                        x={x}
+                        y={y}
+                        fill="currentColor"
+                        fontSize="10"
+                        fontWeight="500"
+                        textAnchor="middle"
+                        alignmentBaseline="middle"
+                        transform={`rotate(${angle + 90}, ${x}, ${y})`}
+                      >
+                        {char}
+                      </text>
+                    );
+                  });
+                })()}
+              </g>
             </svg>
 
             {/* 🔹 Profile Image */}
-            <div className="relative flex items-center justify-center">
-              <Image
-                src="https://ik.imagekit.io/vikash06/Portfolio/pic1.jpg?updatedAt=1759327190557"
-                alt="heroImage"
-                width={450}
-                height={450}
-                loading="lazy"
-                className="rounded-full shadow-down relative z-10 
-          w-[240px] h-[240px] sm:w-[300px] sm:h-[300px] md:w-[360px] md:h-[360px] lg:w-[420px] lg:h-[420px] object-cover"
-              />
-            </div>
+            <Image
+              src="https://ik.imagekit.io/vikash06/Portfolio/pic1.jpg?updatedAt=1759327190557"
+              alt="heroImage"
+              width={450}
+              height={450}
+              loading="lazy"
+              className="rounded-full shadow-down relative z-10 
+        w-[240px] h-[240px] sm:w-[300px] sm:h-[300px] md:w-[280px] md:h-[280px] lg:w-[370px] lg:h-[370px] xl:w-[410px] xl:h-[410px] object-cover"
+            />
           </div>
         </motion.div>
       </div>

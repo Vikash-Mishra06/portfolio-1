@@ -203,31 +203,14 @@ const Contact = () => {
                 <h1 className="text-md  text-[#8B5CF6]">AVAILABLE FOR WORK</h1>
               </div>
               <div className="relative flex items-center justify-center w-[110px] h-[110px]">
-                {/* 🔹 Rotating dashed circular border */}
-                <svg
-                  className="absolute w-[90px] h-[90px] animate-spin-slow"
-                  viewBox="0 0 100 100"
-                >
-                  <circle
-                    cx="50"
-                    cy="50"
-                    r="48"
-                    fill="none"
-                    stroke="#8B5CF6"
-                    strokeWidth="2"
-                    strokeDasharray="10 10" // 10px dash, 10px gap
-                    strokeLinecap="round"
-                  />
-                </svg>
-
-                {/* 🔹 Profile Image */}
+                
                 <Image
                   src="https://ik.imagekit.io/vikash06/Portfolio/pic1.jpg?updatedAt=1759327190557"
-                  width={80}
-                  height={80}
+                  width={100}
+                  height={100}
                   alt="profile"
                   loading="lazy"
-                  className="rounded-full"
+                  className="rounded-full p-1 border border-gray-400 "
                 />
               </div>
 

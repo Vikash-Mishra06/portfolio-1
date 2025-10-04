@@ -229,3 +229,13 @@ body {
 .animate-spin-slow {
   animation: spin-slow 40s linear infinite;
 }
+
+
+@keyframes spin-slower {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slower {
+  animation: spin-slower 25s linear infinite;
+}
