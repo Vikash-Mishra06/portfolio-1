@@ -13,7 +13,7 @@ const Hero = () => {
       className="relative h-screen min-h-[100dvh] flex items-center justify-center text-white z-10"
     >
       {/* Main container with responsive width */}
-      <div className="w-full px-5 pt-10 lg:pt-15 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 items-center max-w-[77rem]">
+      <div className="w-full px-5 md:pt-5 lg:pt-15 md:w-[90%] lg:w-[90%] xl:w-4/5 md:mx-auto md:px-0 grid grid-cols-1 md:grid-cols-2 items-center max-w-[77rem]">
         {/* LEFT SIDE - Text Content */}
         <div className="md:text-left gap-10">
           <motion.h1
